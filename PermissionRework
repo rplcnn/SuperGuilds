@@ -1,0 +1,15 @@
+on join:
+	if player has permission "sg.player":
+		set {sg::perms::%player%} to 1
+	if player has permission "sg.admin":
+		set {sg::perms::%player%} to 2
+
+#Example command.
+command /SuperGuilds [<text>] [<text>] [<text>]:
+	aliases: g, sg, guilds, f, faction, clan
+	trigger:
+		if arg 1 is "help":
+			if {sg::perms::%player%} is 2: #Player is admin!
+				#.............
+			else:
+				send "&cNo permission."
