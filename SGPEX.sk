@@ -8,26 +8,27 @@ on chat:
 			if {chatcontrolenabled} is "true":
 				set {_Leader::%uuid of player%} to single value "Leader" get of "plugins/SuperGuilds/guilds/%{sg::guildNamePlayer::%uuid of player%}%.yml"
 				if {_Leader::%uuid of player%} is "%player%":
+					cancel event
 					set {_x} to {leaderchatprefix}
 					set {_prefix} to colored {sg::PEXprefix::%uuid of player%}
 					replace all "{PREFIX}" with "%{_prefix}%" in {_x}
 					replace all "{PLAYER}" with "%player%" in {_x}
 					replace all "{GUILD}" with "%{sg::guildNamePlayer::%uuid of player%}%" in {_x}
 					replace all "{MESSAGE}" with "%message%" in {_x}
-					cancel event
 					broadcast "%{_x}%"
 				else if {_Leader::%uuid of player%} is not "%player%":
+					cancel event
 					set {_x} to {memberchatprefix}
 					set {_prefix} to colored {sg::PEXprefix::%uuid of player%}
 					replace all "{PREFIX}" with "%{_prefix}%" in {_x}
 					replace all "{PLAYER}" with "%player%" in {_x}
 					replace all "{GUILD}" with "%{sg::guildNamePlayer::%uuid of player%}%" in {_x}
 					replace all "{MESSAGE}" with "%message%" in {_x}
-					cancel event
 					broadcast "%{_x}%"
 	else:
 		if {sg::guildDescPlayer::%uuid of player%} is not set:
 			if {chatcontrolenabled} is "true":
+				cancel event
 				set {_x} to {memberchatprefix}
 				set {_prefix} to colored {sg::PEXprefix::%uuid of player%}
 				replace all "{PREFIX}" with "%{_prefix}%" in {_x}
@@ -36,7 +37,6 @@ on chat:
 				replace all "[" with "" in {_x}
 				replace all "]" with "" in {_x}
 				replace all "{MESSAGE}" with "%message%" in {_x}
-				cancel event
 				broadcast "%{_x}%"
 				
 on join:
