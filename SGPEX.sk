@@ -16,6 +16,7 @@ on chat:
 					replace all "{GUILD}" with "%{sg::guildNamePlayer::%uuid of player%}%" in {_x}
 					replace all "{MESSAGE}" with "%message%" in {_x}
 					broadcast "%{_x}%"
+					clear {_prefix}
 				else if {_Leader::%uuid of player%} is not "%player%":
 					cancel event
 					set {_x} to {memberchatprefix}
@@ -25,6 +26,7 @@ on chat:
 					replace all "{GUILD}" with "%{sg::guildNamePlayer::%uuid of player%}%" in {_x}
 					replace all "{MESSAGE}" with "%message%" in {_x}
 					broadcast "%{_x}%"
+					clear {_prefix}
 	else:
 		if {sg::guildDescPlayer::%uuid of player%} is not set:
 			if {chatcontrolenabled} is "true":
