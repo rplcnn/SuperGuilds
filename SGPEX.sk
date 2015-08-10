@@ -2,7 +2,12 @@
 # LeaderChatPrefix: '§7[§6{GUILD}§7] §2§lLEADER {PREFIX}{PLAYER}§4: §f{MESSAGE}'
 # MemberChatPrefix: '§7[§6{GUILD}§7] {PREFIX}{PLAYER}§4: §f{MESSAGE}'
 
-on chat:
+on join:
+	set {sg::PEXgroup::%uuid of player%} to single value "users.%uuid of player%.group" get of "plugins/PermissionsEx/permissions.yml"
+	wait 2 ticks
+	set {_z} to {sg::PEXgroup::%uuid of player%}
+	replace all "[" and "]" with "" in {_z}
+	set {sg::PEXprefix::%uuid of player%} to single value "groups.%{_z}%.options.prefix" get of "plugins/PermissionsEx/permissions.yml"	
 	if {sg::guildNamePlayer::%uuid of player%} is set:
 		if {sg::guildDescPlayer::%uuid of player%} is not set:
 			if {chatcontrolenabled} is "true":
@@ -39,10 +44,3 @@ on chat:
 				replace all "{MESSAGE}" with "%message%" in {_x}
 				broadcast "%{_x}%"
 		clear {_prefix}
-				
-on join:
-	set {sg::PEXgroup::%uuid of player%} to single value "users.%uuid of player%.group" get of "plugins/PermissionsEx/permissions.yml"
-	wait 2 ticks
-	set {_z} to {sg::PEXgroup::%uuid of player%}
-	replace all "[" and "]" with "" in {_z}
-	set {sg::PEXprefix::%uuid of player%} to single value "groups.%{_z}%.options.prefix" get of "plugins/PermissionsEx/permissions.yml"	
