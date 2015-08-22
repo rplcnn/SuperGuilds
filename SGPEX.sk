@@ -1,46 +1,18 @@
-#example:
-# LeaderChatPrefix: '§7[§6{GUILD}§7] §2§lLEADER {PREFIX}{PLAYER}§4: §f{MESSAGE}'
-# MemberChatPrefix: '§7[§6{GUILD}§7] {PREFIX}{PLAYER}§4: §f{MESSAGE}'
-
 on join:
 	set {sg::PEXgroup::%uuid of player%} to single value "users.%uuid of player%.group" get of "plugins/PermissionsEx/permissions.yml"
 	wait 2 ticks
 	set {_z} to {sg::PEXgroup::%uuid of player%}
 	replace all "[" and "]" with "" in {_z}
 	set {sg::PEXprefix::%uuid of player%} to single value "groups.%{_z}%.options.prefix" get of "plugins/PermissionsEx/permissions.yml"	
+	
+on chat:
 	if {sg::guildNamePlayer::%uuid of player%} is set:
-		if {sg::guildDescPlayer::%uuid of player%} is not set:
-			if {chatcontrolenabled} is "true":
-				set {_Leader::%uuid of player%} to single value "Leader" get of "plugins/SuperGuilds/guilds/%{sg::guildNamePlayer::%uuid of player%}%.yml"
-				if {_Leader::%uuid of player%} is "%player%":
-					cancel event
-					set {_x} to {leaderchatprefix}
-					set {_prefix} to colored {sg::PEXprefix::%uuid of player%}
-					replace all "{PREFIX}" with "%{_prefix}%" in {_x}
-					replace all "{PLAYER}" with "%player%" in {_x}
-					replace all "{GUILD}" with "%{sg::guildNamePlayer::%uuid of player%}%" in {_x}
-					replace all "{MESSAGE}" with "%message%" in {_x}
-					broadcast "%{_x}%"
-				else if {_Leader::%uuid of player%} is not "%player%":
-					cancel event
-					set {_x} to {memberchatprefix}
-					set {_prefix} to colored {sg::PEXprefix::%uuid of player%}
-					replace all "{PREFIX}" with "%{_prefix}%" in {_x}
-					replace all "{PLAYER}" with "%player%" in {_x}
-					replace all "{GUILD}" with "%{sg::guildNamePlayer::%uuid of player%}%" in {_x}
-					replace all "{MESSAGE}" with "%message%" in {_x}
-					broadcast "%{_x}%"
-	else:
-		if {sg::guildDescPlayer::%uuid of player%} is not set:
-			if {chatcontrolenabled} is "true":
-				cancel event
-				set {_x} to {memberchatprefix}
-				set {_prefix} to colored {sg::PEXprefix::%uuid of player%}
-				replace all "{PREFIX}" with "%{_prefix}%" in {_x}
-				replace all "{PLAYER}" with "%name of player%" in {_x}
-				replace all "{GUILD}" with "" in {_x}
-				replace all "[" with "" in {_x}
-				replace all "]" with "" in {_x}
-				replace all "{MESSAGE}" with "%message%" in {_x}
-				broadcast "%{_x}%"
-		clear {_prefix}
+		set {_Leader::%uuid of player%} to single value "Leader" get of "plugins/SuperGuilds/guilds/%{sg::guildNamePlayer::%uuid of player%}%.yml"
+		if {_Leader::%uuid of player%} is "%player%":
+			cancel event
+			set {_x} to {sg::PEXprefix::%uuid of player%}
+			broadcast "&6&l👑 &7[&a%{sg::guildNamePlayer::%uuid of player%}%&7]&r %{_x}%%player%&4&l: &f%message%"			
+		else if {_Leader::%uuid of player%} is not "%player%":
+			cancel event
+			set {_x} to {sg::PEXprefix::%uuid of player%}
+			broadcast "&7[&a%{sg::guildNamePlayer::%uuid of player%}%&7]&r %{_x}%%player%&4&l: &f%message%"	
