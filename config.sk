@@ -1,0 +1,79 @@
+#LAST VERSION: 0.7.2
+#         SUPER GUILDS
+variables:
+	{configversion} = "v069b"
+	{autoupdater} = "true"
+	# Prefix of all texts!
+	{tag} = "§2*§7"
+	# Feature settings>
+	# Example: {disableworlds} = "world_nether, world_the_end"
+	{disabledworlds} = "none"
+	{chatcontrolenabled} = "true"
+	{leaderchatprefix} = "§7[§6{GUILD}§7] §2§lLEADER {PREFIX}"
+	{memberchatprefix} = "§7[§6{GUILD}§7] {PREFIX}"
+	{warenable} = "true"
+	{claimenabled} = "true"
+	{petsenabled} = "true"
+	{motdenabled} = "true"
+	{enablehomes} = "true"
+	{enablesethomes} = "true"
+	# PvP in claim lands.
+	{claimpvp} = "true"
+	# The max land new claims can claim.
+	# (Set to -1 for unlimited land claiming)
+	# 
+	{startwithclaim} = "true"
+	{playerguildmaxclaims} = "10"
+	# The max land vip claims can claim.
+	# (Set to -1 for unlimited land claiming)
+	{vipguildsmaxclaims} = "-1"
+	{startingland} = "1"
+	# The amount of time in minutes when someone earns a new piece of land to claim.
+	{landclaimtime} = "10"
+	# When a guild unclaims a land should they get the land back as a
+	# gold or lose it permanantly. Requires claim-mode = time (true/false)
+	{refundland} = "true"
+	# Initial settings for new guilds>
+	{startslot} = "4"
+	{startgold} = "100"
+	{startmana} = "10"
+	{startwood} = "0"
+	{startiron} = "0"
+	{starthonor} = "1000"
+	# Cost settings (with gold)>
+	{createcost} = "500"
+	{buyclaimcost} = "100"
+	# Guild Wars settings>
+	# How many you need to kill the end of the war?
+	{warkills} = "50"
+	# How many honor need to war?
+	{warhonorrequired} = "1200"
+	# How many player need to war?
+	{warplayersrequired} = "1"
+	# War reward settings>
+	{wargoldreward} = "100"
+	{warmanareward} = "50"
+	{warwoodreward} = "100"
+	{warironreward} = "50"
+	{warhonorreward} = "150"
+	{warkillgoldreward} = "0"
+	{warkillmanareward} = "0"
+	{warkillwoodreward} = "0"
+	{warkillironreward} = "0"
+	{warkillhonorreward} = "15"
+	# The drawn-war settings>
+	{wartggoldreward} = "0"
+	{wartgmanareward} = "0"
+	{wartgwoodreward} = "0"
+	{wartgironnreward} = "0"
+	{wartghonorreward} = "25"
+	{warlosehonor} = "100"
+	# Teleport cooldown (seconds)
+	{teleportcooldown} = "3"
+	# PVP enabled? (Guild members)
+	{guildpvp} = "true"
+	{antilogout} = "true"
+	# The penalty of pvp logout (death/drop)
+	{antilogouttype} = "death"
+	# If yaml file of guild is not exist guild automatically removed.
+	{nofilepurge} = "true"
