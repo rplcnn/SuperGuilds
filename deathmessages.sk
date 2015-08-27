@@ -1,0 +1,20 @@
+#    SUPER GUILDS DEATH MESSAGES
+#Supports color codes!
+variables:
+	{guildfall} = "§6{PLAYER} ({GUILD}) §6(§4-§25§6) §7was fall."
+	{fall} = "§6{PLAYER} §7was fall."
+	{guildlava} = "§6{PLAYER} ({GUILD}) §6(§4-§25§6) §7burned in the lava."
+	{lava} = "§6{PLAYER} §7was burned in the lava."
+	{guildfire} = "§6{PLAYER} ({GUILD}) §6(§4-§25§6) §7was burned."
+	{fire} = "§6{GUILD} §7was burned."
+	{guilddrown} = "§6{PLAYER} ({GUILD}) §6(§4-§25§6) §7was drowned."
+	{drown} = "§6{PLAYER} §7was drowned."
+	{pvp1} = "§6{VICTIM} ({VICTIMGUILD}) §7was killed by §6{ATTACKER} ({ATTACKERGUILD}) §6(§4-§225§6)§7."
+	{pvp2} = "§6{VICTIM} ({VICTIMGUILD}) §7was killed by §6{ATTACKER} ({ATTACKERGUILD}) §6(§4-§215§6)§7."
+	{pvp3} = "§6{VICTIM} ({VICTIMGUILD}) §6(§4-§25§6) §7was killed by §6{ATTACKER} ({ATTACKERGUILD}) §6(§2+§25§6)§7."
+	{pvp4} = "§6{VICTIM} ({VICTIMGUILD}) §6(§4-§25§6) §7was killed by §6{ATTACKER} ({ATTACKERGUILD}) §6(§2+§25§6)§7."
+	{pvp5} = "§6{VICTIM} ({VICTIMGUILD}) §6(§4-§25§6) §7was killed by §6{ATTACKER} ({ATTACKERGUILD}) §6(§2+§25§6)§7."
+	{pvp6} = "§6{VICTIM} ({VICTIMGUILD}) §6(§4-§215§6) §7was killed by §6{ATTACKER} ({ATTACKERGUILD}) §6(§2+§215§6)§7."
+	{pvp7} = "§6{VICTIM}, §6{ATTACKER} was killed by ({ATTACKERGUILD}) §6(§2+§21§6)§7."
+	{pvp8} = "§6{VICTIM} ({VICTIMGUILD}) &was killed by §6(§4-§25§6) §6{ATTACKER} §7."
+	{pvp9} = "§6{VICTIM} §7was killed by §6{ATTACKER} §7."
