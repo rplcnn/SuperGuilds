@@ -11,7 +11,7 @@ on chat:
 		if {_Leader::%uuid of player%} is "%player%":
 			cancel event
 			set {_x} to {sg::PEXprefix::%uuid of player%}
-			broadcast "&6&l★ &7[&a%{sg::guildNamePlayer::%uuid of player%}%&7]&r %coloured {_x}% %player%&4&l: &f%message%"			
+			broadcast "&6★ &7[&a%{sg::guildNamePlayer::%uuid of player%}%&7]&r %coloured {_x}% %player%&4&l: &f%message%"			
 		else if {_Leader::%uuid of player%} is not "%player%":
 			cancel event
 			set {_x} to {sg::PEXprefix::%uuid of player%}
