@@ -7,12 +7,11 @@ on join:
 	
 on chat:
 	if {sg::guildNamePlayer::%uuid of player%} is set:
+		cancel event
 		set {_Leader::%uuid of player%} to single value "Leader" get of "plugins/SuperGuilds/guilds/%{sg::guildNamePlayer::%uuid of player%}%.yml"
 		if {_Leader::%uuid of player%} is "%player%":
-			cancel event
 			set {_x} to {sg::PEXprefix::%uuid of player%}
 			broadcast "&6★ &7[&a%{sg::guildNamePlayer::%uuid of player%}%&7]&r %coloured {_x}% %player%&4&l: &f%message%"			
 		else if {_Leader::%uuid of player%} is not "%player%":
-			cancel event
 			set {_x} to {sg::PEXprefix::%uuid of player%}
 			broadcast "&7[&a%{sg::guildNamePlayer::%uuid of player%}%&7]&r %coloured {_x}% %player%&4&l: &f%message%"	
