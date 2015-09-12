@@ -1,9 +1,0 @@
-#Only use for no chat plugin.
-on chat:
-	if {sg::guildNamePlayer::%uuid of player%} is set:
-		cancel event
-		set {_Leader::%uuid of player%} to single value "Leader" get of "plugins/SuperGuilds/guilds/%{sg::guildNamePlayer::%uuid of player%}%.yml"
-		if {_Leader::%uuid of player%} is "%player%":
-			broadcast "&6★ &7[&a%{sg::guildNamePlayer::%uuid of player%}%&7]&r %player%&4&l: &f%message%"			
-		else if {_Leader::%uuid of player%} is not "%player%":
-			broadcast "&7[&a%{sg::guildNamePlayer::%uuid of player%}%&7]&r %player%&4&l: &f%message%"	
