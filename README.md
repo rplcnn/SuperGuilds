@@ -5,7 +5,7 @@ Before installing this plugin, a few things are required.
 Skript
 WildSkript
 SkQuery
---> LINK: http://superguilds.tk/
+--> LINK: http://republicansensei.com
 
 All known bugs, fixed.
 
