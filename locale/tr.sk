@@ -327,7 +327,7 @@ on load:
 	set {adminMenu_error3} to "Kullanabileceğin alt komutlar: 'spawn', 'guild1' ve 'guild2'"
 	set {adminMenu_error4} to "Kullanabileceğin alt komutlar: 'unclaim', 'disband', 'bypass', 'wardebug', 'honor', 'store' ve 'setwarspawns'"
 	set {teleportingMessage} to "§a{TIME} §7saniye sonra ışınlanacağınız yer: §a{TYPE}"
-	set {cannotTeleport} to "§cSavaşta olduğun için {TYPE} gidemiyorsun."
+	set {cannotTeleport} to "§cHareket ettiğin veya savaşta olduğun için {TYPE}'ne gidemiyorsun."
 	set {cannotTeleport2} to "§cZaten bir ışınlanma isteğin var!"
 	set {removedDenyClaim} to "§c{REGION} bölgesini claim atılamaz alanlar listesinden çıkardın."
 	set {addedDenyClaim} to "§c{REGION} bölgesini claim atılamaz alanlar listesine ekledin."
