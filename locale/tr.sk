@@ -418,3 +418,4 @@ on load:
 	set {Text_guildHome} to "Lonca evi"
 	set {War_Clock_is_Running} to "§7Savaş §a{TIME} §7dakika sonra bitecek!"
 	set {Draw} to "Berabere"
+	set {localeerrorwebsite} to "&cBöyle bir dil yok yada internet bağlantında sorun var."
