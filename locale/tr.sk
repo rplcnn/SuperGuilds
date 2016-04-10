@@ -60,7 +60,7 @@ on load:
 	set {guildInfo_10} to "§6Kapasite:"
 	set {guildInfo_11} to "§6Kazanmalar:"
 	set {guildInfo_12} to "§6Lonca sahibi:"
-	set {guildInfo_15} to "§6Lonca ortalaması:"
+	set {guildInfo_15} to "§6Lonca kümesi:"
 	set {guildInfo_13} to "§6Depo:"
 	set {guildInfo_14} to "§6Kaybetmeler:"
 	set {enterdesctochat} to "Lonca açıklamasını sohbete yazınınız!"
