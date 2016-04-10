@@ -419,3 +419,4 @@ on load:
 	set {War_Clock_is_Running} to "§7Savaş §a{TIME} §7dakika sonra bitecek!"
 	set {Draw} to "Berabere"
 	set {localeerrorwebsite} to "&cBöyle bir dil yok yada internet bağlantında sorun var."
+	set {Market_Header} to ""&2Lonca sunucu marketi"
