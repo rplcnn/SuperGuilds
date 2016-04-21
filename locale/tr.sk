@@ -432,3 +432,7 @@ on load:
 	set {guild_war_stats_item} to "§6§nSavaş istatistikleri"
 	set {guild_war_find_item} to "§c§nBir savaş rakibi bulmak için tıkla."
 	set {guild_war_top_item} to "§a§nEn iyi loncalar"
+	set {donate_GUI_header} to "§2Bağış menüsü"
+	set {go_to_donate} to "§7Kaynak bağışlamak için tıkla."
+	set {versionmessage} to "§7Şuanki sürüm: §a"
+	set {createdby} to "§eSuperGuilds§7'in yapımcısı: §6"
