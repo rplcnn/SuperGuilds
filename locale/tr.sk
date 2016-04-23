@@ -436,3 +436,8 @@ on load:
 	set {go_to_donate} to "§7Kaynak bağışlamak için tıkla."
 	set {versionmessage} to "§7Şuanki sürüm: §a"
 	set {createdby} to "§eSuperGuilds§7'in yapımcısı: §6"
+	set {directionsText} to "&a&nYönler:"
+	set {direction_North} to "K"
+	set {direction_South} to "G"
+	set {direction_West} to "B"
+	set {direction_East} to "D"
