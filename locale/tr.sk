@@ -257,7 +257,7 @@ on load:
 	set {noRankPlayer} to "§7Bu üye zaten en düşük rütbede."
 	set {setMember} to "§7Oyuncunun rütbesi değiştirildi."
 	set {noPlayer} to "Böyle bir oyuncu bulunamadı."
-	set {currentRank} to "§bMevrut rütbe:"
+	set {currentRank} to "§bMevcut rütbe:"
 	set {rankUpPlayer} to "§7Rütben değiştirildi: §a{RANK}"
 	set {cantKickLeader} to "§7Lonca liderini atamazsın."
 	set {noPermissionforKick} to "§7Senin rütben bu oyuncudan yüksek değil."
