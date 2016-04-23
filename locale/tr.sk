@@ -210,7 +210,7 @@ on load:
 	set {cancelInvitePlayer} to "§7Lonca davetini reddettiniz."
 	set {invitePlayer} to "§a{GUILD}§7 loncası sana davet isteği yolladı."
 	set {stats_menu_honor} to "§aOnur:"
-	set {noInvitePlayer} to "§7Davet edilecek oyuncu yok."
+	set {noPlayerFound} to "§7Hiç oyuncu yok."
 	set {leaderGUI} to "§2Yeni lideri seç"
 	set {0Guild} to "§7Lonca yok!"
 	set {minimum4Other} to "§cDüşmanda minimum {MIN} oyuncu açık değil."
