@@ -441,3 +441,4 @@ on load:
 	set {direction_South} to "G"
 	set {direction_West} to "B"
 	set {direction_East} to "D"
+	set {next_page} to "&6Diğer sayfa &7"
