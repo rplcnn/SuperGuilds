@@ -199,7 +199,7 @@ on load:
 	set {click_kick} to "§7Oyuncuyu atmak için tıkla."
 	set {rank_header} to "§7§l» §2§lLonca üyeleri"
 	set {onHonor} to "onur"
-	set {HasGuild} to "Bu oyuncu başka bir loncada."
+	set {HasGuild} to "Bu oyuncunun zaten loncası var."
 	set {invite_accept_header} to "§7§l» §2§lLonca daveti"
 	set {button_open} to "§aDaveti kabul et"
 	set {button_close} to "§cDaveti red et"
