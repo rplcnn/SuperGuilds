@@ -442,4 +442,5 @@ on load:
 	set {direction_West} to "B"
 	set {direction_East} to "D"
 	set {next_page} to "&6Diğer sayfa &7"
-	set {charerrorcreate} to "§cBu yazı uygunsuz karekter(ler) içeriyor."
+	set {charerrorcreate} to "§cBu yazı uygunsuz karakter(ler) içeriyor."
+	set {help_other_page} to "&a/sg help {NEXTPAGE} &7komutunu kullanarak diğer sayfaya geçin!"
