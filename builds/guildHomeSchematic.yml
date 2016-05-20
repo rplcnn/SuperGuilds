@@ -1,0 +1,358 @@
+schematicBlocks:
+  '290': cobblestone stairs
+  '296': cobblestone stairs
+  '328': white wool
+  '329': cobblestone stairs
+  '331': upside-down cobble slab item
+  '332': cobble slab item
+  '333': upside-down cobble slab item
+  '335': cobblestone stairs
+  '336': white wool
+  '341': white wool
+  '342': cobblestone stairs
+  '343': double cobble slab item
+  '344': upside-down cobble slab item
+  '346': upside-down cobble slab item
+  '347': double cobble slab item
+  '348': cobblestone stairs
+  '349': white wool
+  '432': cobblestone stairs
+  '433': oak wood block
+  '434': cobblestone stairs
+  '435': oak wood block
+  '436': cobblestone stairs
+  '437': oak wood block
+  '438': cobblestone stairs
+  '439': oak wood block
+  '440': cobblestone stairs
+  '446': oak wood block
+  '447': glass pane
+  '448': oak wood block
+  '449': glass pane
+  '450': oak wood block
+  '451': glass pane
+  '452': oak wood block
+  '458': cobblestone stairs
+  '459': oak wood block
+  '460': cobblestone stairs
+  '461': oak wood block
+  '462': cobblestone stairs
+  '463': oak wood block
+  '464': cobblestone stairs
+  '465': oak wood block
+  '466': cobblestone stairs
+  '471': oak wood block
+  '472': west-east oak wood block
+  '473': west-east oak wood block
+  '474': west-east oak wood block
+  '475': west-east oak wood block
+  '476': west-east oak wood block
+  '477': west-east oak wood block
+  '478': west-east oak wood block
+  '479': oak wood block
+  '484': oak wood block
+  '485': white wool
+  '486': west-east oak wood block
+  '487': west-east oak wood block
+  '488': west-east oak wood block
+  '489': west-east oak wood block
+  '490': west-east oak wood block
+  '491': white wool
+  '492': oak wood block
+  '497': white wool
+  '498': cobblestone stairs
+  '499': upside-down cobble slab item
+  '501': double cobble slab item
+  '503': upside-down cobble slab item
+  '504': cobblestone stairs
+  '505': white wool
+  '510': white wool
+  '513': cobble slab item
+  '514': double cobble slab item
+  '515': cobble slab item
+  '576': cobblestone stairs
+  '581': chest
+  '582': cobblestone stairs
+  '589': glass pane
+  '595': glass pane
+  '602': cobblestone stairs
+  '607': upside-down cobble slab item
+  '608': cobblestone stairs
+  '615': south-north oak wood block
+  '616': south-north oak wood block
+  '617': south-north oak wood block
+  '618': full oak wood block
+  '619': full oak wood block
+  '620': full oak wood block
+  '621': south-north oak wood block
+  '627': cobblestone stairs
+  '628': fence
+  '629': oak wood block
+  '630': oak wood block
+  '631': oak wood block
+  '632': oak wood block
+  '633': oak wood block
+  '634': fence
+  '635': cobblestone stairs
+  '640': oak wood block
+  '641': white wool
+  '642': west-east oak wood block
+  '643': west-east oak wood block
+  '644': west-east oak wood block
+  '645': west-east oak wood block
+  '646': west-east oak wood block
+  '647': white wool
+  '648': oak wood block
+  '653': oak wood block
+  '654': white wool
+  '655': west-east oak wood block
+  '656': west-east oak wood block
+  '657': west-east oak wood block
+  '658': west-east oak wood block
+  '659': west-east oak wood block
+  '660': white wool
+  '661': oak wood block
+  '666': white wool
+  '667': cobblestone stairs
+  '669': double cobble slab item
+  '671': double cobble slab item
+  '673': cobblestone stairs
+  '674': white wool
+  '719': oak wood block
+  '724': non-burning furnace
+  '725': oak wood block
+  '732': oak wood block
+  '737': flower pot with nothing
+  '738': oak wood block
+  '745': oak wood block
+  '749': upside-down cobble slab item
+  '750': cobble slab item
+  '751': oak wood block
+  '758': south-north oak wood block
+  '759': south-north oak wood block
+  '760': south-north oak wood block
+  '761': cobblestone stairs
+  '764': south-north oak wood block
+  '771': fence
+  '777': fence
+  '784': fence
+  '787': torch
+  '790': fence
+  '796': cobblestone stairs
+  '797': fence
+  '803': fence
+  '804': cobblestone stairs
+  '809': oak wood block
+  '810': white wool
+  '811': west-east oak wood block
+  '812': west-east oak wood block
+  '813': west-east oak wood block
+  '814': west-east oak wood block
+  '815': west-east oak wood block
+  '816': white wool
+  '817': oak wood block
+  '822': white wool
+  '823': cobblestone stairs
+  '824': double cobble slab item
+  '828': double cobble slab item
+  '829': cobblestone stairs
+  '830': white wool
+  '862': wooden door block
+  '867': crafting table
+  '868': cobblestone stairs
+  '875': wooden door block
+  '880': cobblestone stairs
+  '881': glass pane
+  '888': oak wood block
+  '894': cobblestone stairs
+  '901': south-north oak wood block
+  '902': south-north oak wood block
+  '903': south-north oak wood block
+  '904': full oak wood block
+  '905': full oak wood block
+  '907': south-north oak wood block
+  '914': fence
+  '920': fence
+  '927': fence
+  '933': fence
+  '940': fence
+  '946': fence
+  '952': upside-down cobble slab item
+  '953': fence
+  '959': fence
+  '960': upside-down cobble slab item
+  '965': oak wood block
+  '966': white wool
+  '967': west-east oak wood block
+  '968': west-east oak wood block
+  '969': west-east oak wood block
+  '970': west-east oak wood block
+  '971': west-east oak wood block
+  '972': white wool
+  '973': oak wood block
+  '978': white wool
+  '979': cobble slab item
+  '980': double cobble slab item
+  '981': double cobble slab item
+  '982': double cobble slab item
+  '983': double cobble slab item
+  '984': double cobble slab item
+  '985': cobble slab item
+  '986': white wool
+  '1005': oak wood block
+  '1010': cobblestone stairs
+  '1011': oak wood block
+  '1018': oak wood block
+  '1024': oak wood block
+  '1031': oak wood block
+  '1037': oak wood block
+  '1044': south-north oak wood block
+  '1045': south-north oak wood block
+  '1046': south-north oak wood block
+  '1047': south-north oak wood block
+  '1048': south-north oak wood block
+  '1050': south-north oak wood block
+  '1057': fence
+  '1058': anvil
+  '1060': bed block
+  '1061': bed block
+  '1063': fence
+  '1070': fence
+  '1073': torch
+  '1076': fence
+  '1082': cobblestone stairs
+  '1083': fence
+  '1089': fence
+  '1090': cobblestone stairs
+  '1095': oak wood block
+  '1096': white wool
+  '1097': west-east oak wood block
+  '1098': west-east oak wood block
+  '1099': west-east oak wood block
+  '1100': west-east oak wood block
+  '1101': west-east oak wood block
+  '1102': white wool
+  '1103': oak wood block
+  '1108': white wool
+  '1109': cobblestone stairs
+  '1110': double cobble slab item
+  '1114': double cobble slab item
+  '1115': cobblestone stairs
+  '1116': white wool
+  '1148': cobblestone stairs
+  '1154': cobblestone stairs
+  '1161': glass pane
+  '1167': glass pane
+  '1174': cobblestone stairs
+  '1180': cobblestone stairs
+  '1187': south-north oak wood block
+  '1188': south-north oak wood block
+  '1189': south-north oak wood block
+  '1190': south-north oak wood block
+  '1191': south-north oak wood block
+  '1192': full oak wood block
+  '1193': south-north oak wood block
+  '1199': cobblestone stairs
+  '1200': fence
+  '1201': oak wood block
+  '1202': oak wood block
+  '1203': oak wood block
+  '1204': oak wood block
+  '1205': oak wood block
+  '1206': fence
+  '1207': cobblestone stairs
+  '1212': oak wood block
+  '1213': white wool
+  '1214': west-east oak wood block
+  '1215': west-east oak wood block
+  '1216': west-east oak wood block
+  '1217': west-east oak wood block
+  '1218': west-east oak wood block
+  '1219': white wool
+  '1220': oak wood block
+  '1225': oak wood block
+  '1226': white wool
+  '1227': west-east oak wood block
+  '1228': west-east oak wood block
+  '1229': west-east oak wood block
+  '1230': west-east oak wood block
+  '1231': west-east oak wood block
+  '1232': white wool
+  '1233': oak wood block
+  '1238': white wool
+  '1239': cobblestone stairs
+  '1241': double cobble slab item
+  '1243': double cobble slab item
+  '1245': cobblestone stairs
+  '1246': white wool
+  '1290': cobblestone stairs
+  '1291': oak wood block
+  '1292': cobblestone stairs
+  '1293': oak wood block
+  '1294': cobblestone stairs
+  '1295': oak wood block
+  '1296': cobblestone stairs
+  '1297': oak wood block
+  '1298': cobblestone stairs
+  '1304': oak wood block
+  '1305': glass pane
+  '1306': oak wood block
+  '1307': glass pane
+  '1308': oak wood block
+  '1309': glass pane
+  '1310': oak wood block
+  '1316': cobblestone stairs
+  '1317': oak wood block
+  '1318': cobblestone stairs
+  '1319': oak wood block
+  '1320': cobblestone stairs
+  '1321': oak wood block
+  '1322': cobblestone stairs
+  '1323': oak wood block
+  '1324': cobblestone stairs
+  '1329': oak wood block
+  '1330': west-east oak wood block
+  '1331': west-east oak wood block
+  '1332': west-east oak wood block
+  '1333': west-east oak wood block
+  '1334': west-east oak wood block
+  '1335': west-east oak wood block
+  '1336': west-east oak wood block
+  '1337': oak wood block
+  '1342': oak wood block
+  '1343': white wool
+  '1344': west-east oak wood block
+  '1345': west-east oak wood block
+  '1346': west-east oak wood block
+  '1347': west-east oak wood block
+  '1348': west-east oak wood block
+  '1349': white wool
+  '1350': oak wood block
+  '1355': white wool
+  '1356': cobblestone stairs
+  '1357': upside-down cobble slab item
+  '1359': double cobble slab item
+  '1361': upside-down cobble slab item
+  '1362': cobblestone stairs
+  '1363': white wool
+  '1371': cobble slab item
+  '1372': double cobble slab item
+  '1373': cobble slab item
+  '1376': white wool
+  '1434': cobblestone stairs
+  '1440': cobblestone stairs
+  '1472': white wool
+  '1473': cobblestone stairs
+  '1475': upside-down cobble slab item
+  '1476': cobble slab item
+  '1477': upside-down cobble slab item
+  '1479': cobblestone stairs
+  '1480': white wool
+  '1485': white wool
+  '1486': cobblestone stairs
+  '1487': double cobble slab item
+  '1488': upside-down cobble slab item
+  '1490': upside-down cobble slab item
+  '1491': double cobble slab item
+  '1492': cobblestone stairs
+  '1493': white wool
