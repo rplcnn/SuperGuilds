@@ -214,7 +214,6 @@ schematicBlocks:
   '784': fence
   '790': fence
   '797': fence
-  '800': torch
   '803': fence
   '809': cobblestone stairs
   '810': fence
@@ -322,7 +321,6 @@ schematicBlocks:
   '1074': bed block
   '1076': fence
   '1083': fence
-  '1086': torch
   '1089': fence
   '1095': cobblestone stairs
   '1096': fence
