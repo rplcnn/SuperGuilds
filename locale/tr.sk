@@ -1,7 +1,7 @@
 #         SUPER GUILDS
 #Renk kodlarını ve türkçe karakterleri destekler!
 on load:
-	set {messageFileVersion} to "2.1" #Bunu değiştirme!
+	set {messageFileVersion} to "2.0" #Bunu değiştirme!
 	set {unknowncommand} to "Bilinmeyen komut."
 	set {disabled} to "§cMevcut dünyada loncalar devre-dışı."
 	set {debug1} to "Tüm lonca verileri silinecek onaylıyormusunuz?"
@@ -477,3 +477,6 @@ on load:
 	set {page_5::help2} to "§a/guilds buildings §f§l§m-§r §7Lonca binalarını gösterir."
 	set {page_5::help3} to "§a/guilds chat §f§l§m-§r §7Lonca sohbetini açar."
 	set {page_5::help4} to "§a/guilds alchemy §f§l§m-§r §7Lonca büyücüsünü gösterir."
+	set {sync_done} to "&f{TIME}: &a{FILE} &7dosyası yenilendi!"
+	set {sync_load_failed} to "&f{TIME}: &c{FILE} &7dosyası yüklenmedi!"
+	set {sync_delete_failed} to "&f{TIME}: &c{FILE} &7dosyası silinemedi!"
