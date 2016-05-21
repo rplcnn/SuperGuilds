@@ -486,6 +486,8 @@ on load:
 	set {change_config_header} to "&1Ayarları değiştir"
 	set {Text_status} to "&7&oMevcut durum: &e"
 	set {click_to_change} to "&8Değiştirmek için tıkla."
+	set {true_option} to "&e{OPTION} &7&oayarını &atrue &7&oyapmak için tıkla."
+	set {false_option} to "&e{OPTION} &7&oayarını &cfalse &7&oyapmak için tıkla."
 	set {m_autoupdater} to "Güncelleme hatırlatıcı"
 	set {m_enableSchematics} to "İnşalar"
 	set {m_enableScoreboard} to "Skortablosu"
