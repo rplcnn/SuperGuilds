@@ -253,7 +253,7 @@ on load:
 	set {rank_command_lore} to "§7Oyuncunun rütbesini değiştirmek için tıkla."
 	set {rank_command_6} to "§aMevcut rütbe:"
 	set {useLeaderCommand} to "§a/sg leader §7komutu ile lideri değiştirebilirsin."
-	set {rankUp} to "§7Yeni lonca {RANK} değişti: §a{PLAYER}"
+	set {rankUp} to "§7Yeni {RANK} değişti: §a{PLAYER}"
 	set {hasRank} to "§7Bu oyuncunun zaten rütbesi var."
 	set {noRankPlayer} to "§7Bu üye zaten en düşük rütbede."
 	set {setMember} to "§7Oyuncunun rütbesi değiştirildi."
