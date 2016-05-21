@@ -1,6 +1,7 @@
 #         SUPER GUILDS
 #Renk kodlarını ve türkçe karakterleri destekler!
 on load:
+	set {messageFileVersion} to "2.1" #Bunu değiştirme!
 	set {unknowncommand} to "Bilinmeyen komut."
 	set {disabled} to "§cMevcut dünyada loncalar devre-dışı."
 	set {debug1} to "Tüm lonca verileri silinecek onaylıyormusunuz?"
