@@ -381,6 +381,7 @@ on load:
 	set {Text_Leader} to "Lider"
 	set {Text_CoLeader} to "Yrd. Lider"
 	set {Text_Moderator} to "Moderatör"
+	set {Text_Member} to "Üye"
 	set {yourAllies} to "§1Müttefiklerin"
 	set {AlliesLimit} to "§cMüttefik sayın 10'u geçemez."
 	set {clickHereForRemoveAlly} to "§7Anlaşmayı bozmak için §c/g ally {GUILD} §7yaz."
