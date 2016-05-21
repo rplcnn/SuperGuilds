@@ -488,6 +488,7 @@ on load:
 	set {click_to_change} to "&8Değiştirmek için tıkla."
 	set {true_option} to "&7&oAyarı &atrue &7&oyapmak için tıkla."
 	set {false_option} to "&7&oAyarı &cfalse &7&oyapmak için tıkla."
+	set {config_change_done} to "&e{OPTION} &7ayarı &a{SET} &7olarak ayarlandı."
 	set {m_autoupdater} to "Güncelleme hatırlatıcı"
 	set {m_enableSchematics} to "İnşalar"
 	set {m_enableScoreboard} to "Skortablosu"
