@@ -135,7 +135,7 @@ on load:
 	set {help7} to "§a/guilds map §f§l§m-§r §7Haritayı verir."
 	set {leaderpanel} to "§7§l» §2§lLider Menüsü"
 	set {memberpanel} to "§7§l» §2§lÜye Menüsü"
-	set {member_menu_1} to "§aLonca marketi"
+	set {member_menu_1} to "§aYardım sayfası"
 	set {member_menu_2} to "§aLoncadan ayrıl"
 	set {member_menu_3} to "§aLonca evi"
 	set {member_menu_4} to "§aLonca bilgisi"
