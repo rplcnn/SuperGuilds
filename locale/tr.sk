@@ -1,7 +1,7 @@
 #         SUPER GUILDS
 #Renk kodlarını ve türkçe karakterleri destekler!
 on load:
-	set {messageFileVersion} to "2.0" #Bunu değiştirme!
+	set {messageFileVersion} to "2.2" #Bunu değiştirme!
 	set {unknowncommand} to "Bilinmeyen komut."
 	set {disabled} to "§cMevcut dünyada loncalar devre-dışı."
 	set {debug1} to "Tüm lonca verileri silinecek onaylıyormusunuz?"
@@ -483,6 +483,9 @@ on load:
 	set {sync_load_failed} to "&f[{TIME}]: &c{FILE} &7dosyası yüklenmedi!"
 	set {sync_delete_failed} to "&f[{TIME}]: &c{FILE} &7dosyası silinemedi!"
 	set {downloadFailed} to ""&cİndirme başarısız: &7"
+	set {change_config_header} to "&1Ayarları değiştir"
+	set {Text_status} to "&7&oMevcut durum: &e"
+	set {click_to_change} to "&8Değiştirmek için tıkla."
 	set {m_autoupdater} to "Güncelleme hatırlatıcı"
 	set {m_enableSchematics} to "İnşalar"
 	set {m_enableScoreboard} to "Skortablosu"
@@ -504,3 +507,4 @@ on load:
 	set {m_guildHonorsRequiredonCreate} to "Lonca kurmak için onur puanı"
 	set {m_claimpvp} to "Korumalı alanlarda savaş" 
 	set {m_guildMembersPVP} to "Loncanın üyeleri arasında savaş"
+	
