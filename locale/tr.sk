@@ -481,7 +481,6 @@ on load:
 	set {leader_panel_lore_1} to "||§7§oLoncayı yönetmek için buraya tıkla."
 	set {leader_panel_lore_2} to "||§7§oOyuncuları yönetmek için buraya tıkla."
 	set {leader_panel_lore_3} to "||§7§oSavaşları yönetmek için buraya tıkla."
-	set {change_config_header} to "&1Ayarları değiştir"
 	set {Text_status} to "&7&oMevcut durum: &e"
 	set {click_to_change} to "&8Değiştirmek için tıkla."
 	set {true_option} to "&7&oAyarı &atrue &7&oyapmak için tıkla."
