@@ -1,7 +1,7 @@
 #         SUPER GUILDS
 #Renk kodlarını ve türkçe karakterleri destekler!
 on load:
-	set {messageFileVersion} to "2.0" #Bunu değiştirme!
+	set {messageFileVersion} to "2.0.2" #Bunu değiştirme!
 	set {unknowncommand} to "Bilinmeyen komut."
 	set {disabled} to "§cBulunduğunuz dünyada loncalar devre-dışı."
 	set {debug1} to "Tüm lonca verileri silinecek onaylıyormusunuz?"
@@ -480,5 +480,11 @@ on load:
 	set {sync_load_failed} to "&f[{TIME}]: &c{FILE} &7dosyası yüklenmedi!"
 	set {sync_delete_failed} to "&f[{TIME}]: &c{FILE} &7dosyası silinemedi!"
 	set {downloadFailed} to ""&cİndirme başarısız: &7"
+	set {leader_panel_1} to "§e§nLonca işlemleri"
+	set {leader_panel_2} to "§e§nOyuncu işlemleri"
+	set {leader_panel_3} to "§e§nLonca savaşları"
+	set {leader_panel_lore_1} to "||§7§oLoncayı yönetmek için buraya tıkla."
+	set {leader_panel_lore_2} to "||§7§oOyuncuları yönetmek için buraya tıkla."
+	set {leader_panel_lore_3} to "||§7§oSavaşları yönetmek için buraya tıkla."
 
 	
