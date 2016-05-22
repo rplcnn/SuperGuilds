@@ -310,7 +310,7 @@ on load:
 	set {adminHelp4} to "§c/guilds admin bypass §f§l§m-§r §7Claimleri değiştir."
 	set {adminHelp5} to "§c/guilds admin honor <oyuncu> <yeni> §f§l§m-§r §7Oyuncunun onur puanını değiştir."
 	set {adminHelp6} to "§c/guilds admin store <lonca> <iron/gold/mana/wood> <yeni> §f§l§m-§r §7Loncanın kaynaklarını değiştir."
-	set {adminHelp7} to "§c/guilds admin setwarspawns <spawn/red/blue> §f§l§m-§r §7Savaşın noktalarını belirle."
+	set {adminHelp7} to "§c/guilds admin setwarspawns <red/blue> §f§l§m-§r §7Savaşın noktalarını belirle."
 	set {adminHelp8} to "§c/guilds admin denyregion <add/remove> <wg-bölgesi> §f§l§m-§r §7Oyundan claim atılamayacak bölgeleri belirle."
 	set {adminHelp9} to "§c/guilds admin locale <dil> §f§l§m-§r §7Eklentinin dilini değiştirir."
 	set {WardebugSuccesful} to "Savaş sıfırlandı!"
