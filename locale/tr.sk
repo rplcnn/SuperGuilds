@@ -216,7 +216,6 @@ on load:
 	set {suchGuild} to "§7Böyle bir lonca yok."
 	set {sendWarInvite} to "§7Savaş daveti gönderildi."
 	set {runWarrun} to "Şuanda bir savaş var, daha sonra tekrar dene."
-	set {setSpawn} to "Savaş ana dünyası belirlendi."
 	set {war_header} to "§c§lLONCA SAVAŞLARI"
 	set {playerHonorError} to "§a{HONOR} §7onur puanın yok."
 	set {enemyLeaderOnline} to "§cBu loncanın lideri açık değil."
