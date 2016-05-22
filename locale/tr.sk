@@ -479,7 +479,7 @@ on load:
 	set {sync_done} to "&f[{TIME}] &a{FILE} &7dosyası yenilendi!"
 	set {sync_load_failed} to "&f[{TIME}]: &c{FILE} &7dosyası yüklenmedi!"
 	set {sync_delete_failed} to "&f[{TIME}]: &c{FILE} &7dosyası silinemedi!"
-	set {downloadFailed} to ""&cİndirme başarısız: &7"
+	set {downloadFailed} to "&cİndirme başarısız: &7"
 	set {leader_panel_1} to "§e§nLonca işlemleri"
 	set {leader_panel_2} to "§e§nOyuncu işlemleri"
 	set {leader_panel_3} to "§e§nLonca savaşları"
