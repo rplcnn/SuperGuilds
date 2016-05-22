@@ -515,4 +515,5 @@ on load:
 	set {m_guildHonorsRequiredonCreate} to "Lonca kurmak için onur puanı"
 	set {m_claimpvp} to "Korumalı alanlarda savaş" 
 	set {m_guildMembersPVP} to "Loncanın üyeleri arasında savaş"
+	set {m_startwithclaim} to "Yeni loncalar claim ile başlar"
 	
