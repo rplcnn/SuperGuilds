@@ -1,0 +1,3 @@
+#test
+on load:
+  broadcast "dinamik çalışıyor..."
