@@ -494,4 +494,4 @@ on load:
 	set {config_gui_lore_2} to "||&7&oBu değerler sadece &esayı&7&o olabilir."
 	set {config_gui_lore_3} to "||&7&oBu değerler sadece &eyazı&7&o olabilir." 
 	set {enter_text_num} to "&a30 Saniye içinde yazı veya sayıyı sohbete yaz."
-	set {newsTag} to "&e&lSUPERGUILDS EKLENTI HABERLERI"
+	set {newsTag} to "&e&lSUPERGUILDS HABERLERİ"
