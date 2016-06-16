@@ -1,7 +1,7 @@
 #         SUPER GUILDS
 #Renk kodlarını ve türkçe karakterleri destekler!
 on load:
-	set {messageFileVersion} to "2.0.4" #Bunu değiştirme!
+	set {messageFileVersion} to "2.0.6_euro16" #Bunu değiştirme!
 	set {unknowncommand} to "Bilinmeyen komut."
 	set {disabled} to "§cBulunduğunuz dünyada loncalar devre-dışı."
 	set {debug1} to "Tüm lonca verileri silinecek onaylıyormusunuz?"
@@ -495,3 +495,20 @@ on load:
 	set {config_gui_lore_3} to "||&7&oBu değerler sadece &eyazı&7&o olabilir." 
 	set {enter_text_num} to "&a30 Saniye içinde yazı veya sayıyı sohbete yaz."
 	set {newsTag} to "&e&lSUPERGUILDS HABERLERİ"
+	set {euro16_header} to "§7§l» §2§lEURO 2016"
+	set {euro16_menu_name_1} to "§e§nForma satın al"
+	set {euro16_menu_name_2} to "§e§nTop satın al"
+	set {euro16_menu_name_3} to "§e§nYiyecek satın al"
+	set {euro16_menu_lore_1} to "||§7§oFormalara bakmak için tıkla."
+	set {euro16_menu_lore_2} to "||§7§oTop satın almak için tıkla."
+	set {euro16_menu_lore_3} to "||§7§oYemek dükkanına uğramak için tıkla."
+	set {euro16_jersey_name} to "{COLORCODE}{COLOR} Forma"
+	set {euro16_food_1} to "§ePatlamış mısır"
+	set {euro16_food_2} to "§eKonserve bezelye"
+	set {euro16_food_3} to "§eHamburger"
+	set {euro16_food_4} to "§ePopkek"
+	set {euro16_food_5} to "§eHanımeli kurabiye"
+	set {euro16_food_6} to "§eDiyarbakır karpuzu"
+	set {euro16_food_7} to "§eAmasya elması"
+	set {euro16_food_8} to "§eTantuni"
+	set {euro16_food_9} to "§eOreo"
