@@ -502,7 +502,7 @@ on load:
 	set {euro16_menu_lore_1} to "||§7§oFormalara bakmak için tıkla."
 	set {euro16_menu_lore_2} to "||§7§oTop satın almak için tıkla."
 	set {euro16_menu_lore_3} to "||§7§oYemek dükkanına uğramak için tıkla."
-	set {euro16_jersey_name} to "{COLORCODE}{COLOR} Forma"
+	set {euro16_jersey_name} to "{COLOR}Forma"
 	set {euro16_food_1} to "§ePatlamış mısır"
 	set {euro16_food_2} to "§eKonserve bezelye"
 	set {euro16_food_3} to "§eHamburger"
