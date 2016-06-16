@@ -515,3 +515,5 @@ on load:
 	set {euro16_types_food_Crunchy_Taco34} to "§dTantuni"
 	set {euro16_types_food_DutchGuard} to "§dBisküvi"
 	set {euro16_buy_item} to "§6{ITEM}§7 satın aldınız!"
+	set {euro16_name} to "&e&lYENİ! &dEuro 2016"
+	set {euro16_lore} to "&7İncelemek için buraya tıkla."
