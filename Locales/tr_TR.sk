@@ -1,4 +1,4 @@
-	set {SG::Messages::Prefix} to "§6§lSUPERGUILDS §6➥§7"
+on load:
 	set {SG::Messages::tr_TR::Char_Error} to "Yazdığınız şey desteklenmeyen karakter(ler) içeriyor."
 	set {SG::Messages::tr_TR::WorldGuard_Error} to "Burası WorldGuard tarafından korumalı."
 	set {SG::Messages::tr_TR::Chunk_Error} to "Burada başka bir lonca var."
