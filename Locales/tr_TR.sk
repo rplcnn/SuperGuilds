@@ -190,3 +190,6 @@ on load:
 	set {SG::Messages::tr_TR::Kingdom_Desc_4} to "§7“ §8§oBir yazı. §7”"
 	set {SG::Messages::tr_TR::Cant_Attack_Member} to "§7Lonca arkadaşlarına saldıramazsın."
 	set {SG::Messages::tr_TR::Kingdom_Have} to "§7Zaten krallığınız var: {KINGDOM}"
+	set {SG::Messages::tr_TR::Language_GUI} to "Dil Seçimi"
+	set {SG::Messages::tr_TR::Language_Lore} to "&7||Bu dili seçmek için tıklayın."
+	set {SG::Messages::tr_TR::Language_Select} to "Dil seçildi."
