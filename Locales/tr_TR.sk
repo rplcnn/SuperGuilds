@@ -75,10 +75,10 @@ on load:
 	set {SG::Messages::Unclaim_Here} to "§6Toprak Korumasını Kaldır"
 	set {SG::Messages::Unclaim_Here_Lore} to "||§7Bu toprağın korumasını kaldırmak için tıkla."
 	set {SG::Messages::Buildings_GUI} to "Lonca Binaları"
-	set {SG::Messages::Buildings_Item_1} to "crafting table" parsed as material
-	set {SG::Messages::Buildings_Item_2} to "any sword" parsed as material
-	set {SG::Messages::Buildings_Item_3} to "gold ingot" parsed as material
-	set {SG::Messages::Buildings_Item_4} to "xp bottle" parsed as material
+	set {SG::Messages::Buildings_Item_1} to crafting table
+	set {SG::Messages::Buildings_Item_2} to any sword
+	set {SG::Messages::Buildings_Item_3} to gold ingot
+	set {SG::Messages::Buildings_Item_4} to xp bottle
 	set {SG::Messages::Buildings_Name_1} to "§6Merkez"
 	set {SG::Messages::Buildings_Name_2} to "§6Baraka"
 	set {SG::Messages::Buildings_Name_3} to "§6Depo"
