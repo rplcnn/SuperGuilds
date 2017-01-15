@@ -84,7 +84,7 @@ on load:
 	set {SG::Messages::Buildings_Name_3} to "§6Depo"
 	set {SG::Messages::Buildings_Name_4} to "§6Büyücü"
 	set {SG::Messages::Buildings_Upgrade} to "§7Binayı yükseltmek için tıkla."
-	set {SG::Messages::Buildings_Lore_0} to "§b§nYükseltildiğinde;"
+	set {SG::Messages::Buildings_Lore_0} to "§9§nYükseltildiğinde;"
 	set {SG::Messages::Buildings_Lore_1} to "§7 → Oyuncu kapasitesi artar."
 	set {SG::Messages::Buildings_Lore_2} to "§7 → Savaşa daha iyi eşyalarla başla."
 	set {SG::Messages::Buildings_Lore_3} to "§7 → Depo kapasitesi artar."
