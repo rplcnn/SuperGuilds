@@ -209,3 +209,7 @@ on load:
 	set {SG::Messages::Buildings_Broadcast_2::3} to "§7Loncan savaşlara §belmas set§7 ile başlayacak."
 	set {SG::Messages::Buildings_Broadcast_3} to "§7Lonca deposu kapasitesi genişledi: §a+500"
 	set {SG::Messages::Buildings_Broadcast_4} to "§7Loncan sonraki seviye büyüleri kullanabilir hale geldi."
+	set {SG::Messages::Showing_Claims} to "§7Tüm korumalı alanlarınızı görebilirsiniz.  Görmek istemiyorsan sunucudan çıkıp tekrar girebilirsin."
+	set {SG::Messages::No_Claims} to "§7Loncanın hiç korumalı alanı yok."
+	set {SG::Messages::Show_Claim_Wait} to "§7Tüm korumalı alanları görmek için beklemelisin. Her §e{NUMBER} §7saniyede bir tekrar görebilirsin."
+
