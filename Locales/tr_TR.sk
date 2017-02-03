@@ -220,3 +220,8 @@ on load:
 	set {SG::Messages::Guild_Rank_Lore} to "||§7Mevcut Rütbe: §f{RANK}"
 	set {SG::Messages::Guild_Header_Rank} to "Rütbe Değiştir"
 	set {SG::Messages::Select_GUI} to "Liste Türü"
+	set {SG::Messages::Player_No_Guild} to "§7Bu oyuncu loncanda değil."
+	set {SG::Messages::Rank_Changed} to "§7Rütben {RANK}§7 olarak ayarlandı."
+	set {SG::Messages::Ranked_Player} to "§7{OLDRANKCHANGEP} {CHANGEP}§7 oyuncusunun rütbesi {RANKPLAYER} {PLAYER}§7 tarafından {NEWRANKCHANGEP}§7 olarak ayarlandı."
+	set {SG::Messages::Rank_Wrong} to "§7Sadece rütbenden düşük rütbeleri seçebilirsin."
+
