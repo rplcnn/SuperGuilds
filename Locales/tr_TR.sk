@@ -135,7 +135,7 @@ on load:
 	set {SG::Messages::Help_Pages_2::Line_2} to "§e/guilds invite <oyuncu> §8- §7Oyuncuyu davet et."
 	set {SG::Messages::Help_Pages_2::Line_3} to "§e/guilds claim §8- §7Bulunduğun yeri al."
 	set {SG::Messages::Help_Pages_2::Line_4} to "§e/guilds unclaim §8- §7Bulunduğun yeri sil."
-	set {SG::Messages::Help_Pages_2::Line_5} to "§e/guilds debug §8- §7Tüm lonca verilerini sıfırla."
+	set {SG::Messages::Help_Pages_2::Line_5} to "§e/guilds rank §8- §7Oyuncuların rütbesini değiştirir."
 	set {SG::Messages::Help_Pages_2::Line_6} to "§e/guilds reload §8- §7Eklentiyi yenile."
 	set {SG::Messages::Help_Pages_2::Line_7} to "§e/guilds home §8- §7Lonca evine git."
 	set {SG::Messages::Help_Pages_2::Line_8} to "§e/guilds sethome §8- §7Lonca evini belirle."
@@ -219,3 +219,4 @@ on load:
 	set {SG::Messages::Rank_Not_Enough} to "§7Rütben bunun için yetersiz."
 	set {SG::Messages::Guild_Rank_Lore} to "||§7Mevcut Rütbe: §f{RANK}"
 	set {SG::Messages::Guild_Header_Rank} to "Rütbe Değiştir"
+	set {SG::Messages::Select_GUI} to "Liste Türü"
