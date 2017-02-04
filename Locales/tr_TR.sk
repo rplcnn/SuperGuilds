@@ -217,4 +217,4 @@ on load:
 	set {SG::Messages::Guild_Market} to "§6Market"
 	set {SG::Messages::Guild_Market_Lore} to "||§7Marketi görmek için tıkla."
 	set {SG::Messages::See_Stats} to "||§7Oyuncunun bilgilerini görmek için tıkla."
-
+	set {SG::Messages::Player_Info_4} to "||&7Oyuncu çevrimiçi değil.||||&eSon görülme: &f{SEEN}"
