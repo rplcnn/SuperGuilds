@@ -211,7 +211,7 @@ on load:
 	set {SG::Messages::Player_Info_Name_3} to "§6Diğer Bilgiler:"
 	set {SG::Messages::Player_Info_1} to "||§eLonca: §f{GUILD}||||§eRütbe: §f{RANK}||||§eKatılım Tarihi: §f{DATE}||||§eSavaş durumu;||§7 → Öldürme: §f{KILLS}||§7 → Ölme: §f{DEATHS}||||§eBu loncaya olan bağışlar;||§7 → Altın: §f{DGOLD}||§7 → Sihir: §f{DMAGIC}"
 	set {SG::Messages::Player_Info_2} to "||§eOyuncu: §f{PLAYER}||||§ePvP;||§7 → Öldürme: §f{KILLS}||§7 → Ölme: §f{DEATHS}||§7 → KDA: §f{KDA}||||§eTüm bağışları;||§7 → Altın: §f{DGOLD}||§7 → Sihir: §f{DMAGIC}"
-	set {SG::Messages::Player_Info_3} to "||§eSağlık: §f{HEALTH}/10||||§eAçlık: §f{HUNGER}/10||||§eLokasyon: §f{LOCATION}||||§eSon görülme: §f{SEEN}"
+	set {SG::Messages::Player_Info_3} to "||§eSağlık: §f{HEALTH}/10||||§eAçlık: §f{HUNGER}/10||||§eLokasyon: §f{LOCATION}"
 	set {SG::Messages::No_Guild_Like_This} to "§7Bu isimde böyle bir lonca bulunamadı."
 	set {SG::Messages::No_Player_Like_This} to "§7Bu isimde böyle bir oyucu bulunamadı."
 	set {SG::Messages::Guild_Market} to "§6Market"
