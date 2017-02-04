@@ -218,3 +218,6 @@ on load:
 	set {SG::Messages::Guild_Market_Lore} to "||§7Marketi görmek için tıkla."
 	set {SG::Messages::See_Stats} to "||§7Oyuncunun bilgilerini görmek için tıkla."
 	set {SG::Messages::Player_Info_4} to "||&7Oyuncu çevrimiçi değil.||||&eSon görülme: &f{SEEN}"
+	set {SG::Messages::You_Cant_Unclaim} to "§7Burası loncanın §e{BUILD} §7bölgesi olduğu için buranın korumasını kaldıramazsın."
+	set {SG::Messages::You_Cant_Action} to "§7Burası loncanın §e{BUILD} §7bölgesi olduğu için burayı değiştiremezsin."
+	set {SG::Messages::Owned_By} to "§7Bu toprak §e{GUILD}§7 loncasına ait. Hiçbir şey değiştiremezsin."
