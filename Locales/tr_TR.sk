@@ -210,3 +210,4 @@ on load:
 	set {SG::Messages::Use_Guild_Button} to "                      §7§l[LONCA AMBLEMI KULLAN §7✎§7§l]"
 	set {SG::Messages::Select_Color} to "§7Rengi seçmemişsin."
 	set {SG::Messages::Select_Code} to "§7Kutuyu seçmemişsin."
+	set {SG::Messages::Guild_Emblem_Changed} to "&7Lonca amblemi değişti."
