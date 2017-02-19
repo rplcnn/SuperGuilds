@@ -211,3 +211,4 @@ on load:
 	set {SG::Messages::Select_Color} to "§7Rengi seçmemişsin."
 	set {SG::Messages::Select_Code} to "§7Kutuyu seçmemişsin."
 	set {SG::Messages::Guild_Emblem_Changed} to "&7Lonca amblemi &e{PLAYER} &7tarafından değiştirildi."
+	set {SG::Messages::Create_Guild_Disabled_World} to "&7Bulunduğun dünyada lonca kuramazsın."
