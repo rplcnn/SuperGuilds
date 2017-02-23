@@ -226,3 +226,4 @@ on load:
 	set {SG::Messages::Divisions_4} to "&bMaestría" # 400-500
 	set {SG::Messages::Divisions_5} to "&cCampeonato" # 500-*
 	set {SG::Messages::Chat_Addon_Click_To_Stats} to "&7Haga clic para ver el perfil del jugador."
+	set {SG::Messages::Back_Header} to "&6Espalda"
