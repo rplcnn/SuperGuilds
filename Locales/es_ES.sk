@@ -217,3 +217,9 @@ on load:
 	set {SG::Messages::Select_Code} to "§7No puedes seleccionar ese cuadro."
 	set {SG::Messages::Guild_Emblem_Changed} to "§7El emblema del gremio ha sido cambiado por §e{PLAYER}§7."
 	set {SG::Messages::Create_Guild_Disabled_World} to "§7No puedes crear un gremio en este mundo, contacta rápidamente con un administrador."
+	set {SG::Messages::Divisions_0} to "&8Bronce" # 0-50
+	set {SG::Messages::Divisions_1} to "&7Plata" # 50-200
+	set {SG::Messages::Divisions_2} to "&eOro" # 200-300    #Elo: 9
+	set {SG::Messages::Divisions_3} to "&dCristal" # 300-400
+	set {SG::Messages::Divisions_4} to "&bMaestría" # 400-500
+	set {SG::Messages::Divisions_5} to "&cCampeonato" # 500-*
