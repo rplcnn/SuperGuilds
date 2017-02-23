@@ -225,4 +225,5 @@ on load:
 	set {SG::Messages::Divisions_4} to "&bUstalık" # 400-500
 	set {SG::Messages::Divisions_5} to "&cŞampiyonluk" # 500-*
 	set {SG::Messages::Chat_Addon_Click_To_Stats} to "&7Oyuncunun bilgilerini görmek için tıkla."
+	set {SG::Messages::Back_Header} to "&6Geri"
 	
