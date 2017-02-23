@@ -158,7 +158,7 @@ on load:
 	set {SG::Messages::Language_Select} to "Dil seçildi: &a{LANG}"
 	set {SG::Messages::Unknown_Command} to "Bilinmeyen komut."
 	set {SG::Messages::Locale_Error} to "Dil dosyasına web üzerinden erişim sağlanamadı."
-	set {SG::Messages::Enter_Language} to "Dili gir. (Mevcut diller: en_US ve tr_TR)"
+	set {SG::Messages::Enter_Language} to "Dili gir."
 	set {SG::Messages::Guild_Error_Upgrade} to "&7Artık bu loncada değilsin."
 	set {SG::Messages::Buildings_Required_Lore_0} to "§b§nGeliştirme Ücreti;"
 	set {SG::Messages::Buildings_Required_Lore_1} to "§7 → {GOLD}: §f{GNEED}||§7 → {MANA}: §f{MNEED}"
