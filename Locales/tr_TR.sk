@@ -44,7 +44,7 @@ on load:
 	set {SG::Messages::Claim_Here} to "§6Toprağı Korumaya Al"
 	set {SG::Messages::Claim_Here_Lore} to "||§7Bulunduğun yeri korumaya al."
 	set {SG::Messages::Guild_Alchemy} to "§6Lonca Büyücüsü"
-	set {SG::Messages::Guild_Alchemy_Lore} to "||§7Lonca büyücüsünü açmak içi tıkla."
+	set {SG::Messages::Guild_Alchemy_Lore} to "||§7Lonca büyücüsünü açmak için tıkla."
 	set {SG::Messages::Check_Players} to "§6Oyuncu Listesi"
 	set {SG::Messages::Check_Players_Lore} to "||§7Lonca oyuncularını görmek için tıkla."
 	set {SG::Messages::Guild_Buildings} to "§6Lonca Binaları"
