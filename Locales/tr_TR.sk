@@ -216,3 +216,9 @@ on load:
 	set {SG::Messages::Select_Code} to "§7Kutuyu seçmemişsin."
 	set {SG::Messages::Guild_Emblem_Changed} to "&7Lonca amblemi &e{PLAYER} &7tarafından değiştirildi."
 	set {SG::Messages::Create_Guild_Disabled_World} to "&7Bulunduğun dünyada lonca kuramazsın."
+	set {SG::Messages::Divisions_0} to "&8Bronz" # 0-50
+	set {SG::Messages::Divisions_1} to "&7Gümüş" # 50-200
+	set {SG::Messages::Divisions_2} to "&eAltın" # 200-300    #Elo: 9
+	set {SG::Messages::Divisions_3} to "&dKristal" # 300-400
+	set {SG::Messages::Divisions_4} to "&bUstalık" # 400-500
+	set {SG::Messages::Divisions_5} to "&cŞampiyonluk" # 500-*
