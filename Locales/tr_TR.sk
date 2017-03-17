@@ -266,6 +266,6 @@ on load:
 	set {SG::Messages::Alchemy_Type_4_Name_1} to "&6Seviye I Koruma"
 	set {SG::Messages::Alchemy_Type_4_Name_2} to "&6Seviye II Koruma"
 	set {SG::Messages::Alchemy_Type_4_Name_3} to "&6Seviye III Koruma"
-	set {SG::Messages::Bought_Alchemy_Guild} to "&e{GUILD} &7loncası lonca büyüsünden &6{TYPE} &7satın aldı."
+	set {SG::Messages::Bought_Alchemy_Guild} to "&e{GUILD} &7loncası lonca büyücüsünden &6{TYPE} &7satın aldı."
 	set {SG::Messages::Bought_Alchemy_Own} to "&7{RANK} {PLAYER} &7lonca büyücüsünden &6{TYPE} &7satın aldı."
 	
