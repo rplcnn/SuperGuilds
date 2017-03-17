@@ -229,4 +229,41 @@ on load:
 	set {SG::Messages::SYNC_Done} to "§a{FILE} §7dosyası yenilendi."
 	set {SG::Messages::SYNC_Load_Error} to "§c{FILE} §7dosyası yenilenemedi."
 	set {SG::Messages::SYNC_Delete_Failed} to "§c{FILE}§7 silinemedi."
-	set {SG::Messages::SYNC_Enter_File} to "§7Yenilecek dosya türünü giriniz. (locale or config)"
+	set {SG::Messages::SYNC_Enter_File} to "§7Yenilecek dosya türünü giriniz. (locale ya da config)"
+	set {SG::Messages::Menu_Alchemy_GUI} to "Lonca Büyücüsü"
+	set {SG::Messages::Text_Feature} to "&eÖzelliği:"
+	set {SG::Messages::Text_Price} to "&eFiyat:"
+	set {SG::Messages::Text_Buy} to "&eSatın almak için tıkla."
+	set {SG::Messages::Alchemy_Menu_Lore_1} to "&8 → &7Tüm lonca üyelerine 30 dakikalık güç verir."
+	set {SG::Messages::Alchemy_Menu_Lore_2} to "&8 → &7Tüm lonca üyelerine at çağırır."
+	set {SG::Messages::Alchemy_Menu_Lore_3} to "&8 → &7Tüm lonca üyelerine 30 dakikalık hız verir."
+	set {SG::Messages::Alchemy_Menu_Lore_4} to "&8 → &7Tüm lonca üyelerine 30 dakikalık koruma verir."
+	set {SG::Messages::Alchemy_Menu_Price_1} to " &8 → &7Seviye I: &f{MAGIC1} sihir|| &8 → &7Seviye II: &f{MAGIC2} sihir|| &8 → &7Seviye III: &f{MAGIC3} sihir"
+	set {SG::Messages::Alchemy_Menu_Price_2} to " &8 → &7Zırhsız At: &f{MAGIC1} sihir|| &8 → &7Demir Zırhlı At: &f{MAGIC2} sihir|| &8 → &7Elmas Zırhlı At: &f{MAGIC3} sihir"
+	set {SG::Messages::Alchemy_Menu_Price_3} to " &8 → &7Seviye I: &f{MAGIC1} sihir|| &8 → &7Seviye II: &f{MAGIC2} sihir|| &8 → &7Seviye III: &f{MAGIC3} sihir"
+	set {SG::Messages::Alchemy_Menu_Price_4} to " &8 → &7Seviye I: &f{MAGIC1} sihir|| &8 → &7Seviye II: &f{MAGIC2} sihir|| &8 → &7Seviye III: &f{MAGIC3} sihir"
+	set {SG::Messages::Alchemy_Type_1_Item_1} to stone sword
+	set {SG::Messages::Alchemy_Type_1_Item_2} to iron sword
+	set {SG::Messages::Alchemy_Type_1_Item_3} to diamond sword
+	set {SG::Messages::Alchemy_Type_2_Item_1} to saddle
+	set {SG::Messages::Alchemy_Type_2_Item_2} to iron horse armor
+	set {SG::Messages::Alchemy_Type_2_Item_3} to diamond horse armor
+	set {SG::Messages::Alchemy_Type_3_Item_1} to leather boots
+	set {SG::Messages::Alchemy_Type_3_Item_2} to iron boots
+	set {SG::Messages::Alchemy_Type_3_Item_3} to diamond boots
+	set {SG::Messages::Alchemy_Type_4_Item_1} to leather chestplate
+	set {SG::Messages::Alchemy_Type_4_Item_2} to iron chestplate
+	set {SG::Messages::Alchemy_Type_4_Item_3} to diamond chestplate
+	set {SG::Messages::Alchemy_Type_1_Name_1} to "&6Seviye I Güç"
+	set {SG::Messages::Alchemy_Type_1_Name_2} to "&6Seviye II Güç"
+	set {SG::Messages::Alchemy_Type_1_Name_3} to "&6Seviye III Güç"
+	set {SG::Messages::Alchemy_Type_2_Name_1} to "&6Zırhsız At"
+	set {SG::Messages::Alchemy_Type_2_Name_2} to "&6Demir Zırhlı At"
+	set {SG::Messages::Alchemy_Type_2_Name_3} to "&6Elmas Zırhlı At"
+	set {SG::Messages::Alchemy_Type_3_Name_1} to "&6Seviye I Hız"
+	set {SG::Messages::Alchemy_Type_3_Name_2} to "&6Seviye II Hız"
+	set {SG::Messages::Alchemy_Type_3_Name_3} to "&6Seviye III Hız"
+	set {SG::Messages::Alchemy_Type_4_Name_1} to "&6Seviye I Koruma"
+	set {SG::Messages::Alchemy_Type_4_Name_2} to "&6Seviye II Koruma"
+	set {SG::Messages::Alchemy_Type_4_Name_3} to "&6Seviye III Koruma"
+	
