@@ -163,7 +163,7 @@ on load:
 	set {SG::Messages::Enter_Language} to "Dili gir."
 	set {SG::Messages::Guild_Error_Upgrade} to "&7Artık bu loncada değilsin."
 	set {SG::Messages::Buildings_Required_Lore_0} to "§b§nGeliştirme Ücreti;"
-	set {SG::Messages::Buildings_Required_Lore_1} to "§7 → {GOLD}: §f{GNEED}||§7 → {MANA}: §f{MNEED}"
+	set {SG::Messages::Buildings_Required_Lore_1} to "§7 → {GOLD}: §f{GNEED}||§7 → {MAGIC}: §f{MNEED}"
 	set {SG::Messages::No_Magic_Guild} to "§7Loncanın yeteri kadar sihiri yok."
 	set {SG::Messages::Limit_Buildings} to "&7Bu binanın son seviyesine ulaştın."
 	set {SG::Messages::Building_Upgrade} to "{RANK} {PLAYER}§7, {BUILD} &7binasını seviye &e{NUMBER} &7yaptı."
