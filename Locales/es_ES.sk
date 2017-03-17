@@ -227,3 +227,45 @@ on load:
 	set {SG::Messages::Divisions_5} to "&cCampeonato" # 500-*
 	set {SG::Messages::Chat_Addon_Click_To_Stats} to "&7Haga clic para ver el perfil del jugador."
 	set {SG::Messages::Back_Header} to "&6Espalda"
+	set {SG::Messages::SYNC_Done} to "§7SYNC for §a{FILE} §7file is done."
+	set {SG::Messages::SYNC_Load_Error} to "§7Couldn't load §c{FILE} §7file."
+	set {SG::Messages::SYNC_Delete_Failed} to "§7Couln't delete/restore file §c{FILE}§7."
+	set {SG::Messages::SYNC_Enter_File} to "§7Enter the file to sync. (locale or config)"
+	set {SG::Messages::Menu_Alchemy_GUI} to "Guild Alchemy"
+	set {SG::Messages::Text_Feature} to "§eFeature:"
+	set {SG::Messages::Text_Price} to "§ePrice:"
+	set {SG::Messages::Text_Buy} to "§eClick here to buy this feature."
+	set {SG::Messages::Alchemy_Menu_Lore_1} to "§8 → §7It gives 15 minutes strength to all guild members."
+	set {SG::Messages::Alchemy_Menu_Lore_2} to "§8 → §7It summons horse for all guild members"
+	set {SG::Messages::Alchemy_Menu_Lore_3} to "§8 → §7It gives 15 minutes speed to all guild members."
+	set {SG::Messages::Alchemy_Menu_Lore_4} to "§8 → §7It gives 15 minutes resistance to all guild members."
+	set {SG::Messages::Alchemy_Menu_Price_1} to " §8 → §7Level I: §f{MAGIC1} magic|| §8 → §7Level II: §f{MAGIC2} magic|| §8 → §7Level III: §f{MAGIC3} magic"
+	set {SG::Messages::Alchemy_Menu_Price_2} to " §8 → §7Unarmed Horse: §f{MAGIC1} magic|| §8 → §7Iron Armored Horse: §f{MAGIC2} magic|| §8 → §7Diamond Armored Horse: §f{MAGIC3} magic"
+	set {SG::Messages::Alchemy_Menu_Price_3} to " §8 → §7Level I: §f{MAGIC1} magic|| §8 → §7Level II: §f{MAGIC2} magic|| §8 → §7Level III: §f{MAGIC3} magic"
+	set {SG::Messages::Alchemy_Menu_Price_4} to " §8 → §7Level I: §f{MAGIC1} magic|| §8 → §7Level II: §f{MAGIC2} magic|| §8 → §7Level III: §f{MAGIC3} magic"
+	set {SG::Messages::Alchemy_Type_1_Item_1} to stone sword
+	set {SG::Messages::Alchemy_Type_1_Item_2} to iron sword
+	set {SG::Messages::Alchemy_Type_1_Item_3} to diamond sword
+	set {SG::Messages::Alchemy_Type_2_Item_1} to saddle
+	set {SG::Messages::Alchemy_Type_2_Item_2} to iron horse armor
+	set {SG::Messages::Alchemy_Type_2_Item_3} to diamond horse armor
+	set {SG::Messages::Alchemy_Type_3_Item_1} to leather boots
+	set {SG::Messages::Alchemy_Type_3_Item_2} to iron boots
+	set {SG::Messages::Alchemy_Type_3_Item_3} to diamond boots
+	set {SG::Messages::Alchemy_Type_4_Item_1} to leather chestplate
+	set {SG::Messages::Alchemy_Type_4_Item_2} to iron chestplate
+	set {SG::Messages::Alchemy_Type_4_Item_3} to diamond chestplate
+	set {SG::Messages::Alchemy_Type_1_Name_1} to "§6Level I Strength"
+	set {SG::Messages::Alchemy_Type_1_Name_2} to "§6Level II Strength"
+	set {SG::Messages::Alchemy_Type_1_Name_3} to "§6Level III Strength"
+	set {SG::Messages::Alchemy_Type_2_Name_1} to "§6Unarmed Horse"
+	set {SG::Messages::Alchemy_Type_2_Name_2} to "§6Iron Armored Horse"
+	set {SG::Messages::Alchemy_Type_2_Name_3} to "§6Diamond Armored Horse"
+	set {SG::Messages::Alchemy_Type_3_Name_1} to "§6Level I Speed"
+	set {SG::Messages::Alchemy_Type_3_Name_2} to "§6Level II Speed"
+	set {SG::Messages::Alchemy_Type_3_Name_3} to "§6Level III Speed"
+	set {SG::Messages::Alchemy_Type_4_Name_1} to "§6Level I Resistance"
+	set {SG::Messages::Alchemy_Type_4_Name_2} to "§6Level II Resistance"
+	set {SG::Messages::Alchemy_Type_4_Name_3} to "§6Level III Resistance"
+	set {SG::Messages::Bought_Alchemy_Guild} to "§e{GUILD} §7guild, bought §6{TYPE} §7from guild alchemy."
+	set {SG::Messages::Bought_Alchemy_Own} to "§7{RANK} {PLAYER}§7, bought §6{TYPE} §7from guild alchemy."
