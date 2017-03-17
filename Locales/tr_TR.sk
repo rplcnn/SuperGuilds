@@ -226,4 +226,7 @@ on load:
 	set {SG::Messages::Divisions_5} to "&cŞampiyonluk" # 500-*
 	set {SG::Messages::Chat_Addon_Click_To_Stats} to "&7Oyuncunun bilgilerini görmek için tıkla."
 	set {SG::Messages::Back_Header} to "&6Geri"
-	
+	set {SG::Messages::SYNC_Done} to "§a{FILE} §7dosyası yenilendi."
+	set {SG::Messages::SYNC_Load_Error} to "§c{FILE} §7dosyası yenilenemedi."
+	set {SG::Messages::SYNC_Delete_Failed} to "§c{FILE}§7 silinemedi."
+	set {SG::Messages::SYNC_Enter_File} to "§7Yenilecek dosya türünü giriniz. (locale or config)"
