@@ -265,7 +265,7 @@ on load:
 	set {SG::Messages::Alchemy_Type_4_Name_3} to "§6Level III Resistance"
 	set {SG::Messages::Bought_Alchemy_Guild} to "§e{GUILD} §7guild, bought §6{TYPE} §7from guild alchemy."
 	set {SG::Messages::Bought_Alchemy_Own} to "§7{RANK} {PLAYER}§7, bought §6{TYPE} §7from guild alchemy."
-	set {SG::Messages::Barrack_Upgrade_Item_1} to "§0leather set"
+	set {SG::Messages::Barrack_Upgrade_Item_1} to "§7leather set"
 	set {SG::Messages::Barrack_Upgrade_Item_2} to "§egolden set"
 	set {SG::Messages::Barrack_Upgrade_Item_3} to "§8chain set"
 	set {SG::Messages::Barrack_Upgrade_Item_4} to "§firon set"
