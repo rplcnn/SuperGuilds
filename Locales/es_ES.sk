@@ -127,7 +127,7 @@ on load:
 	set {SG::Messages::Help_Pages_3::Line_2} to "§e/guilds war §8- §7Guerra con otros gremios."
 	set {SG::Messages::Help_Pages_3::Line_3} to "§e/guilds version §8- §7Muestra la versión de gremios."
 	set {SG::Messages::Help_Pages_3::Line_4} to "§e/guilds buildings §8- §7Muestra las construcciones del gremio."
-	set {SG::Messages::Help_Pages_3::Line_5} to "§e/guilds chat <message> §8- §7Manda un mensaje a los miembros del gremio."
+	set {SG::Messages::Help_Pages_3::Line_5} to "&e/guilds showclaims &8- &7Shows guild's all claims."
 	set {SG::Messages::Help_Pages_3::Line_6} to "§e/guilds alchemy §8- §7Muestra la alquímia del gremio."
 	set {SG::Messages::Next_Page} to "§8§m--------§r §7Usa §6/sg help {NEXT} §7para ver la siguiente página. §8§m-------"
 	set {SG::Messages::Invite_Player_Name} to "§7Introduce el nombre del jugador que quieras invitar."
