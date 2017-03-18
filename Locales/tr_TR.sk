@@ -266,4 +266,8 @@ on load:
 	set {SG::Messages::Alchemy_Type_4_Name_3} to "&6Seviye III Koruma"
 	set {SG::Messages::Bought_Alchemy_Guild} to "&e{GUILD} &7loncası lonca büyücüsünden &6{TYPE} &7satın aldı."
 	set {SG::Messages::Bought_Alchemy_Own} to "&7{RANK} {PLAYER} &7lonca büyücüsünden &6{TYPE} &7satın aldı."
-	
+	set {SG::Messages::Barrack_Upgrade_Item_1} to "§7leather set"
+	set {SG::Messages::Barrack_Upgrade_Item_2} to "§egolden set"
+	set {SG::Messages::Barrack_Upgrade_Item_3} to "§8chain set"
+	set {SG::Messages::Barrack_Upgrade_Item_4} to "§firon set"
+	set {SG::Messages::Barrack_Upgrade_Item_5} to "§bdiamond set"	
