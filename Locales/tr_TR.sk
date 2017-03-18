@@ -275,6 +275,3 @@ on load:
 	set {SG::Messages::Menu_War_GUI} to "Guild Wars"
 	set {SG::Messages::Menu_War_Name_1} to "&6Search Guild To Fight"
 	set {SG::Messages::Menu_War_Lore_1} to "&7Click here to find guild to fight."
-	set {SG::Messages::Menu_War_GUI} to "Guild Wars"
-	set {SG::Messages::Menu_War_Name_1} to "&6Search Guild To Fight"
-	set {SG::Messages::Menu_War_Lore_1} to "&7Click here to find guild to fight."
