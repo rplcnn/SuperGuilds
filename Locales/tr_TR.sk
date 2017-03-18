@@ -275,3 +275,7 @@ on load:
 	set {SG::Messages::Menu_War_GUI} to "Guild Wars"
 	set {SG::Messages::Menu_War_Name_1} to "&6Search Guild To Fight"
 	set {SG::Messages::Menu_War_Lore_1} to "&7Click here to find guild to fight."
+	set {SG::Messages::Menu_War_Name_2} to "&6War Statistics"
+	set {SG::Messages::Menu_War_Lore_2} to "&eGuild;||&7 → Division: &f{LEVEL}||&7 → Points: &f{POINTS} ✪||&7 → Start Items: &f{ITEMS}||||&ePvP;||&7 → Kills: &f{KILLS}||&7 → Deaths: &f{DEATHS}||||&eTop Killer;||&7 → {RANK} {TOP}&8: &f{NUM} kills"
+	set {SG::Messages::Menu_War_Name_3} to "&6Top Guilds"
+	set {SG::Messages::Menu_War_Lore_3} to "&7Click here to see top guilds."
