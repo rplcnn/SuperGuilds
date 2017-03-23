@@ -75,7 +75,7 @@ on load:
 	set {SG::Messages::Buildings_GUI} to "Edifici di Gilda"
 	set {SG::Messages::Buildings_Item_1} to crafting table
 	set {SG::Messages::Buildings_Item_2} to any sword
-	set {SG::Messages::Buildings_Item_3} to gold lingot
+	set {SG::Messages::Buildings_Item_3} to gold ingot
 	set {SG::Messages::Buildings_Item_4} to xp bottle
 	set {SG::Messages::Buildings_Name_1} to "§6Sede Principale"
 	set {SG::Messages::Buildings_Name_2} to "§6Addestramento"
