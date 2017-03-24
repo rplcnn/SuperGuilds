@@ -135,7 +135,7 @@ on load:
 	set {SG::Messages::Player_Closed_Invites} to "§7Este jugador tiene desactivado las peticiones."
 	set {SG::Messages::Player_Has_Guild} to "§7Este jugador está en un gremio"
 	set {SG::Messages::Your_Guild_Is_Full} to "§7Tu gremio esta completo, mejora el ayuntamiento para obtener más capacidad"
-	set {SG::Messages::Invite_Wait} to "&7You have to wait &e{NUMBER} &7to invite someone."
+	set {SG::Messages::Invite_Wait} to "&7You have to wait &e{TIME} &7to invite someone."
 	set {SG::Messages::This_Guild_Is_Full} to "§7Este gremio está completo."
 	set {SG::Messages::Invite_Send} to "§7La invitación ha sido mandada al jugador."
 	set {SG::Messages::Invite_GUI} to "Carta de invitación"
