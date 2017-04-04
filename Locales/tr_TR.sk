@@ -18,7 +18,6 @@ on load:
 	set {SG::Messages::You_Arent_Leader} to "Loncanın lideri değilsin."
 	set {SG::Messages::Guild_Remove_Broadcast} to "§c{GUILD} §7loncası yıkıldı."
 	set {SG::Messages::Option_Disabled} to "Bu özellik devre-dışı."
-	set {SG::Messages::Home_Not_Set} to "Lonca evi bulunamadı, §e/g sethome §7komutunu girerek yeniden dene."
 	set {SG::Messages::No_Rank} to "Lonca rütben bunun için yetersiz."
 	set {SG::Messages::You_Dont_Have_This_Chunk} to "Loncan bu toprağa sahip değil."
 	set {SG::Messages::Done_Set_Home} to "Lonca evin belirlendi."
