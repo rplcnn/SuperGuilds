@@ -20,7 +20,6 @@ on load:
 	set {SG::Messages::You_Arent_Leader} to "§7No eres el rey del gremio."
 	set {SG::Messages::Guild_Remove_Broadcast} to "§c{GUILD} §7ha sido eliminado."
 	set {SG::Messages::Option_Disabled} to "§7Pronto implementaremos esta opción."
-	set {SG::Messages::Home_Not_Set} to "§7No se ha encontrado el hogar, prueba con §e/g sethome"
 	set {SG::Messages::No_Rank} to "§7No tienes suficiente rango de gremio."
 	set {SG::Messages::You_Dont_Have_This_Chunk} to "§7Tu gremio no tiene este chunk."
 	set {SG::Messages::Done_Set_Home} to "§7Se ha puesto el punto de hogar correctamente."
