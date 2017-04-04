@@ -18,7 +18,6 @@ on load:
 	set {SG::Messages::You_Arent_Leader} to "§7Du bist nicht der Guild Leader."
 	set {SG::Messages::Guild_Remove_Broadcast} to "§c{GUILD} §7wurde Aufgeloest."
 	set {SG::Messages::Option_Disabled} to "§7Dieses Feature ist Ausgeschaltet."
-	set {SG::Messages::Home_Not_Set} to "§7der Guild Home wurde nicht gefunden, benutze §e/g sethome §7Kommand erneut."
 	set {SG::Messages::No_Rank} to "§7dein Guild Rang ist nicht ausreichend."
 	set {SG::Messages::You_Dont_Have_This_Chunk} to "§7Dein Guild hat diesen Chunk nicht."
 	set {SG::Messages::Done_Set_Home} to "§7Guild Home wurde gesetzt."
