@@ -18,7 +18,6 @@ on load:
 	set {SG::Messages::You_Arent_Leader} to "§7Non sei il Leader della Gilda."
 	set {SG::Messages::Guild_Remove_Broadcast} to "§7La Gilda §c{GUILD} §7è stata sciolta."
 	set {SG::Messages::Option_Disabled} to "§7Questa funzione è disabilitata."
-	set {SG::Messages::Home_Not_Set} to "§7La sede ufficiale della Gilda non è stata trovata, usa il comando §e/g sethome §7di nuovo."
 	set {SG::Messages::No_Rank} to "§7Il tuo rango gilda non è sufficiente."
 	set {SG::Messages::You_Dont_Have_This_Chunk} to "§7La tua Gilda non possiede questo terreno."
 	set {SG::Messages::Done_Set_Home} to "§7La sede principale della Gilda è stata impostata."
