@@ -20,7 +20,6 @@ on load:
 	set {SG::Messages::You_Arent_Leader} to "§7No eres el rey del gremio."
 	set {SG::Messages::Guild_Remove_Broadcast} to "§c{GUILD} §7ha sido eliminado."
 	set {SG::Messages::Option_Disabled} to "§7Pronto implementaremos esta opción."
-	set {SG::Messages::Home_Not_Set} to "§7No se ha encontrado el hogar, prueba con §e/g sethome"
 	set {SG::Messages::No_Rank} to "§7No tienes suficiente rango de gremio."
 	set {SG::Messages::You_Dont_Have_This_Chunk} to "§7Tu gremio no tiene este chunk."
 	set {SG::Messages::Done_Set_Home} to "§7Se ha puesto el punto de hogar correctamente."
@@ -302,5 +301,8 @@ on load:
 	set {SG::Messages::Notifier_Addon_3} to "§7They have §2{PLAYERS} §7members online."
 	set {SG::Messages::Notifier_Addon_4} to "§7Leader: §2{LEADER}"
 	set {SG::Messages::Notifier_Addon_5} to "§7This is one of their §2{CLAIMED} §7claims."
+<<<<<<< HEAD
 	set {SG::Messages::No_Item_Gold} to "§7You don't have §e{NUMBER} gold ingot(s) §7to donate."
 	set {SG::Messages::No_Item_Magic} to "§7You don't have §9{NUMBER} level(s) §7to donate."
+=======
+>>>>>>> origin/master

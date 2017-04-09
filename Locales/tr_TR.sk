@@ -18,7 +18,6 @@ on load:
 	set {SG::Messages::You_Arent_Leader} to "Loncanın lideri değilsin."
 	set {SG::Messages::Guild_Remove_Broadcast} to "§c{GUILD} §7loncası yıkıldı."
 	set {SG::Messages::Option_Disabled} to "Bu özellik devre-dışı."
-	set {SG::Messages::Home_Not_Set} to "Lonca evi bulunamadı, §e/g sethome §7komutunu girerek yeniden dene."
 	set {SG::Messages::No_Rank} to "Lonca rütben bunun için yetersiz."
 	set {SG::Messages::You_Dont_Have_This_Chunk} to "Loncan bu toprağa sahip değil."
 	set {SG::Messages::Done_Set_Home} to "Lonca evin belirlendi."
@@ -294,6 +293,7 @@ on load:
 	set {SG::Messages::Claimed_Land} to "Korumalı Toprak"
 	set {SG::Messages::Claimed_Land_Lore} to "||§7Konum: §f{LOC}||||§eBu toprağa ışınlanmak için tıkla."
 	set {SG::Messages::Click_To_Info} to "||§7Lider: §f{LEADER}||||§7Küme: §f{LEVEL}||||§eBu loncanın bilgisini görmek için tıkla."
+<<<<<<< HEAD
 	set {SG::Messages::ClaimName_Usage} to "§e/sg claimname <isim> §7kullanarak durduğunuz toprağın ismini değiştirebilirsin."
 	set {SG::Messages::ClaimName_Changed} to "§e{LOC} §7konumundaki toprağınızın ismi §9{BY}§7 tarafından §6{NAME} §7olarak değiştirildi."
 	set {SG::Messages::Wilderness_Text} to "§fVahşi Doğa"
@@ -304,3 +304,13 @@ on load:
 	set {SG::Messages::Notifier_Addon_5} to "§7Korumalı toprak sayısı: §2{CLAIMED}"
 	set {SG::Messages::No_Item_Gold} to "§7Bağışlayacak §e{NUMBER} altın külçen §7yok."
 	set {SG::Messages::No_Item_Magic} to "§7Bağışlayacak §9{NUMBER} seviyen §7yok."
+=======
+	set {SG::Messages::ClaimName_Usage} to "§7Use §e/sg claimname <name> §7for edit name of where you at chunk."
+	set {SG::Messages::ClaimName_Changed} to "§7Name of claim located at §e{LOC} §7changed to §6{NAME} §7by §9{BY}§7."
+	set {SG::Messages::Wilderness_Text} to "§fWilderness"
+	set {SG::Messages::Notifier_Addon_1} to "§7Leaving §a{OLD}§7, entering §a{NEW}§7."
+	set {SG::Messages::Notifier_Addon_2} to "§7You entered §a{OWNER} §7territory."
+	set {SG::Messages::Notifier_Addon_3} to "§7They have §2{PLAYERS} §7members online."
+	set {SG::Messages::Notifier_Addon_4} to "§7Leader: §2{LEADER}"
+	set {SG::Messages::Notifier_Addon_5} to "§7This is one of their §2{CLAIMED} §7claims."
+>>>>>>> origin/master
