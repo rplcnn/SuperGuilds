@@ -148,7 +148,6 @@ on load:
 	set {SG::Messages::Enter_An_Integer} to "§7Inserisci numero intero."
 	set {SG::Messages::No_Storage} to "§7Spazio insufficiente per §f{NUMBER} {RESOURCE}§r§7. §7Devi migliorare prima il deposito."
 	set {SG::Messages::Player_Donated} to "{RANK} {PLAYER}§7, ha donato §f{NUMBER} {RESOURCE}§r §7al deposito di Gilda."
-	set {SG::Messages::No_Item_To_Donate} to "§7Non hai §e{ITEM} §7da donare."
 	set {SG::Messages::You_Donated} to "§7Hai donato §f{NUMBER} {RESOURCE}§r §7al deposito della tua Gilda."
 	set {SG::Messages::Donations_0} to "§7Donazioni devono essere superiori di zero."
 	set {SG::Messages::Leader_Leave} to "§7Sei il Leader, non puoi mica lasciare la Gilda cosi... Puoi scioglierla eseguendo §e/g remove§7."
@@ -306,3 +305,5 @@ on load:
 	set {SG::Messages::Notifier_Addon_3} to "§7They have §2{PLAYERS} §7members online."
 	set {SG::Messages::Notifier_Addon_4} to "§7Leader: §2{LEADER}"
 	set {SG::Messages::Notifier_Addon_5} to "§7This is one of their §2{CLAIMED} §7claims."
+	set {SG::Messages::No_Item_Gold} to "§7You don't have §e{NUMBER} gold ingot(s) §7to donate."
+	set {SG::Messages::No_Item_Magic} to "§7You don't have §9{NUMBER} level(s) §7to donate."
