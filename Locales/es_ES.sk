@@ -301,8 +301,5 @@ on load:
 	set {SG::Messages::Notifier_Addon_3} to "§7They have §2{PLAYERS} §7members online."
 	set {SG::Messages::Notifier_Addon_4} to "§7Leader: §2{LEADER}"
 	set {SG::Messages::Notifier_Addon_5} to "§7This is one of their §2{CLAIMED} §7claims."
-<<<<<<< HEAD
 	set {SG::Messages::No_Item_Gold} to "§7You don't have §e{NUMBER} gold ingot(s) §7to donate."
 	set {SG::Messages::No_Item_Magic} to "§7You don't have §9{NUMBER} level(s) §7to donate."
-=======
->>>>>>> origin/master
