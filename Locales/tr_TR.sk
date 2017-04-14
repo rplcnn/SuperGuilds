@@ -341,5 +341,5 @@ on load:
 	set {SG::Messages::War_End_Timer} to "&7Savaş &e{MINUTES} &7dakika sonra sona erecek."
 	set {SG::Messages::Game_Finished_Time} to "&7Süre bitti, kimse kazanamadı."
 	set {SG::Messages::No_Command_War} to "&7Savaştayken komut kullanamazsın."
-	set {SG::Messages::War_Death_1} to "&c{VICTIM} ({GUILD}) &7öldü ve savaştan elendi."
+	set {SG::Messages::War_Death_1} to "&c{VICTIM} ({GUILD})&7, &9{ATTACKER} ({GUILD}) &7tarafından öldürüldü ve savaştan elendi."
 	set {SG::Messages::War_Win} to "&a{GUILD1} &7vs. &c{GUILD2} &7savaşı sonlandı. &a{GUILD1} &7savaşı kazandı."
