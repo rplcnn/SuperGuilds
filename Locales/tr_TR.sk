@@ -270,6 +270,12 @@ on load:
 	set {SG::Messages::Barrack_Upgrade_Item_3} to "§8zincir set"
 	set {SG::Messages::Barrack_Upgrade_Item_4} to "§fdemir set"
 	set {SG::Messages::Barrack_Upgrade_Item_5} to "§belmas set"	
+	set {SG::Messages::Divisions_Item_0} to coal item
+	set {SG::Messages::Divisions_Item_1} to iron ingot
+	set {SG::Messages::Divisions_Item_2} to gold ingot
+	set {SG::Messages::Divisions_Item_3} to diamond
+	set {SG::Messages::Divisions_Item_4} to emerald
+	set {SG::Messages::Divisions_Item_5} to nether star
 	set {SG::Messages::Menu_War_GUI} to "Lonca Savaşları"
 	set {SG::Messages::Menu_War_Name_1} to "&6Şavaşacak Lonca Ara"
 	set {SG::Messages::Menu_War_Lore_1} to "&7Savaşmak için buraya tıkla."
