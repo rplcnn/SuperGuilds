@@ -334,18 +334,57 @@ on load:
 	set {SG::Messages::Enemy_Guild_In_War} to "&7Bu lonca şu anda bir savaşta."
 	set {SG::Messages::Your_Guild_In_War} to "&7Loncan şu anda bir savaşta"
 	set {SG::Messages::Cannot_War_Yourself} to "&7Kendin ile savaşamazsın."
-	set {SG::Messages::War_Invite_Send} to "&7Loncanız &9{GUILD} &7loncasına savaş davetiyesi gönderdi."
+	set {SG::Messages::War_Invite_Send} to "&7Loncanız &c{GUILD} &7loncasına savaş davetiyesi gönderdi."
 	set {SG::Messages::War_Invite_GUI} to "Savaş Davetiyesi"
 	set {SG::Messages::War_InviteC_Accept} to "&6Kabul et ve &e{GUILD}&6 loncasıyla savaş."
 	set {SG::Messages::War_InviteC_Reject} to "&cReddet ve menüyü kapat."
-	set {SG::Messages::War_Other_Reject} to "&9{GUILD} &7lonca davetiyenizi reddetti."
-	set {SG::Messages::War_You_Reject} to "&9{GUILD}&7 loncasının davetini reddettiniz."
+	set {SG::Messages::War_Other_Reject} to "&c{GUILD} &7lonca davetiyenizi reddetti."
+	set {SG::Messages::War_You_Reject} to "&c{GUILD}&7 loncasının davetini reddettiniz."
 	set {SG::Messages::No_Available_Arena} to "&7Savaşılabilecek arena bulunamadı."
-	set {SG::Messages::War_Starting_Timer} to "&9{GUILD1} &7vs. &c{GUILD2} &7savaşı &e{SECONDS} &7saniye sonra başlıyor."
-	set {SG::Messages::War_Started} to "&9{GUILD1} &7vs. &c{GUILD2} &7savaşı başladı. Savaşçılara şans dileyin!"
+	set {SG::Messages::War_Starting_Timer} to "&a{GUILD1} &7vs. &c{GUILD2} &7savaşı &e{SECONDS} &7saniye sonra başlıyor."
+	set {SG::Messages::War_Started} to "&a{GUILD1} &7vs. &c{GUILD2} &7savaşı başladı. Savaşçılara şans dileyin!"
 	set {SG::Messages::War_Starting} to "&7Savaş davetiyesi kabul edildi, savaşa hazırlanın!"
 	set {SG::Messages::War_End_Timer} to "&7Savaş &e{MINUTES} &7dakika sonra sona erecek."
 	set {SG::Messages::Game_Finished_Time} to "&7Süre bitti, kimse kazanamadı."
 	set {SG::Messages::No_Command_War} to "&7Savaştayken komut kullanamazsın."
-	set {SG::Messages::War_Death_1} to "&9{VICTIM} ({GUILD})&7, &c{ATTACKER} ({AGUILD}) &7tarafından öldürüldü ve savaştan elendi."
-	set {SG::Messages::War_Win} to "&9{GUILD1} &7vs. &c{GUILD2} &7savaşı sonlandı. &9{GUILD1} &7savaşı kazandı."
+	set {SG::Messages::War_Death_1} to "&c{VICTIM} ({GUILD})&7, &9{ATTACKER} ({GUILD}) &7tarafından öldürüldü ve savaştan elendi."
+	set {SG::Messages::War_Win} to "&9{GUILD1} &7vs. &c{GUILD2} &7savaşı sonlandı. &9{GUILD1} &7savaşı kazandı."	
+	set {SG::Messages::New_Division} to "&7Loncanın kümesi &r{OLDDIVISION}&7 kümesinden &r{NEWDIVISION} &7kümesine ayarlandı."
+	set {SG::Messages::War_Points_Add} to "&7Loncan &c{GUILD} &7loncasına karşı olan savaşı kazandığı için &a+{POINTS} ✪ &7aldı."
+	set {SG::Messages::War_Points_Lose} to "&7Loncan &9{GUILD} &7loncasına karşı olan savaşı kaybettiği için &c-{POINTS} ✪ &7eksildi."
+	set {SG::Messages::Arena_Debug} to "&7Arena &a{ARENA} &7yeniden başlatıldı."
+	set {SG::Messages::No_Arena_Found} to "&7Hiç arena bulunamadı."
+	set {SG::Messages::Arena_Guilds} to "&7Savaşan Loncalar: &f"
+	set {SG::Messages::Arena_TimeLeft} to "&7Kalan Süre: &f"
+	set {SG::Messages::Status_Text_0} to "&a&lBEKLİYOR"
+	set {SG::Messages::Status_Text_1} to "&e&lOYUNDA"
+	set {SG::Messages::Status_Text_2} to "&2&lKAPALI"
+	set {SG::Messages::War_Item_H_Barrack_1} to leather helmet
+	set {SG::Messages::War_Item_C_Barrack_1} to leather chestplate
+	set {SG::Messages::War_Item_L_Barrack_1} to leather leggings
+	set {SG::Messages::War_Item_B_Barrack_1} to leather boots
+	set {SG::Messages::War_Item_S_Barrack_1} to stone sword
+	#
+	set {SG::Messages::War_Item_H_Barrack_2} to gold helmet
+	set {SG::Messages::War_Item_C_Barrack_2} to gold chestplate
+	set {SG::Messages::War_Item_L_Barrack_2} to gold leggings
+	set {SG::Messages::War_Item_B_Barrack_2} to gold boots
+	set {SG::Messages::War_Item_S_Barrack_2} to golden sword of unbreaking 10
+	#
+	set {SG::Messages::War_Item_H_Barrack_3} to chain helmet
+	set {SG::Messages::War_Item_C_Barrack_3} to chain chestplate
+	set {SG::Messages::War_Item_L_Barrack_3} to chain leggings
+	set {SG::Messages::War_Item_B_Barrack_3} to chain boots
+	set {SG::Messages::War_Item_S_Barrack_3} to stone sword of sharpness 3
+	#
+	set {SG::Messages::War_Item_H_Barrack_4} to iron helmet
+	set {SG::Messages::War_Item_C_Barrack_4} to iron chestplate
+	set {SG::Messages::War_Item_L_Barrack_4} to iron leggings
+	set {SG::Messages::War_Item_B_Barrack_4} to iron boots
+	set {SG::Messages::War_Item_S_Barrack_4} to iron sword
+	#
+	set {SG::Messages::War_Item_H_Barrack_5} to diamond helmet
+	set {SG::Messages::War_Item_C_Barrack_5} to diamond chestplate
+	set {SG::Messages::War_Item_L_Barrack_5} to diamond leggings
+	set {SG::Messages::War_Item_B_Barrack_5} to diamond boots
+	set {SG::Messages::War_Item_S_Barrack_5} to diamond sword

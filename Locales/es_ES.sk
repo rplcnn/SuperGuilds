@@ -328,16 +328,56 @@ on load:
 	set {SG::Messages::Cannot_War_Yourself} to "&7You can't make war with yourself."
 	set {SG::Messages::War_Invite_Send} to "&7Your guild sent a war invitation to &c{GUILD} &7guild."
 	set {SG::Messages::War_Invite_GUI} to "War Invitation"
-	set {SG::Messages::War_InviteC_Accept} to "&6Accept and war with &e{GUILD}&6."
+	set {SG::Messages::War_InviteC_Accept} to "&6Accept and war with &c{GUILD}&6."
 	set {SG::Messages::War_InviteC_Reject} to "&cReject and close the menu."
-	set {SG::Messages::War_Other_Reject} to "&c{GUILD} &7rejected your war invitation."
-	set {SG::Messages::War_You_Reject} to "&7You rejected &c{GUILD}&7's war invitation."
+	set {SG::Messages::War_Other_Reject} to "&9{GUILD} &7rejected your war invitation."
+	set {SG::Messages::War_You_Reject} to "&7You rejected &9{GUILD}&7's war invitation."
 	set {SG::Messages::No_Available_Arena} to "&7No available arena found."
-	set {SG::Messages::War_Starting_Timer} to "&a{GUILD1} &7vs. &c{GUILD2} &7will be started in &e{SECONDS} &7second(s)."
-	set {SG::Messages::War_Started} to "&7The war of &a{GUILD1} &7vs. &c{GUILD2} &7is started. Good luck warriors!"
+	set {SG::Messages::War_Starting_Timer} to "&9{GUILD1} &7vs. &c{GUILD2} &7will be started in &e{SECONDS} &7second(s)."
+	set {SG::Messages::War_Started} to "&7The war of &9{GUILD1} &7vs. &c{GUILD2} &7is started. Good luck warriors!"
 	set {SG::Messages::War_Starting} to "&7War invitation is accepted, prepare to the war!"
 	set {SG::Messages::War_End_Timer} to "&7War will be ended in &e{MINUTES} &7minute(s)."
 	set {SG::Messages::Game_Finished_Time} to "&7Time is over, no one won."
 	set {SG::Messages::No_Command_War} to "&7You can't use commands while you're in war."
-	set {SG::Messages::War_Death_1} to "&c{VICTIM} ({GUILD}) &7is died and eliminated from the war."
-	set {SG::Messages::War_Win} to "&7The war of &a{GUILD1} &7vs. &c{GUILD2} &7has ended. &a{GUILD1} &7won the war."
+	set {SG::Messages::War_Death_1} to "&9{VICTIM} ({GUILD}) &7killed by &c{ATTACKER} ({AGUILD}) &7and eliminated from the war."
+	set {SG::Messages::War_Win} to "&7The war of &9{GUILD1} &7vs. &c{GUILD2} &7has ended. &9{GUILD1} &7won the war."
+	set {SG::Messages::New_Division} to "&7Your guild's division has changed to &r{NEWDIVISION} &7from &r{OLDDIVISION}&7."
+	set {SG::Messages::War_Points_Add} to "&7Your guild won the war against &c{GUILD} &7and gained &a+{POINTS} ✪&7."
+	set {SG::Messages::War_Points_Lose} to "&7Your guild lose the war against &9{GUILD} &7and lost &c-{POINTS} ✪&7."
+	set {SG::Messages::Arena_Debug} to "&7Arena &a{ARENA} &7has restarted."
+	set {SG::Messages::No_Arena_Found} to "&7No arena found."
+	set {SG::Messages::Arena_Guilds} to "&7Arena Guilds: &f"
+	set {SG::Messages::Arena_TimeLeft} to "&7Time Left: &f"
+	set {SG::Messages::Status_Text_0} to "&a&lWAITING"
+	set {SG::Messages::Status_Text_1} to "&e&lINGAME"
+	set {SG::Messages::Status_Text_2} to "&c&lCLOSED"
+	set {SG::Messages::Status_Text_3} to "&4&lRESTARTING"
+	set {SG::Messages::War_Item_H_Barrack_1} to leather helmet
+	set {SG::Messages::War_Item_C_Barrack_1} to leather chestplate
+	set {SG::Messages::War_Item_L_Barrack_1} to leather leggings
+	set {SG::Messages::War_Item_B_Barrack_1} to leather boots
+	set {SG::Messages::War_Item_S_Barrack_1} to stone sword
+	#
+	set {SG::Messages::War_Item_H_Barrack_2} to gold helmet
+	set {SG::Messages::War_Item_C_Barrack_2} to gold chestplate
+	set {SG::Messages::War_Item_L_Barrack_2} to gold leggings
+	set {SG::Messages::War_Item_B_Barrack_2} to gold boots
+	set {SG::Messages::War_Item_S_Barrack_2} to golden sword of unbreaking 10
+	#
+	set {SG::Messages::War_Item_H_Barrack_3} to chain helmet
+	set {SG::Messages::War_Item_C_Barrack_3} to chain chestplate
+	set {SG::Messages::War_Item_L_Barrack_3} to chain leggings
+	set {SG::Messages::War_Item_B_Barrack_3} to chain boots
+	set {SG::Messages::War_Item_S_Barrack_3} to stone sword of sharpness 3
+	#
+	set {SG::Messages::War_Item_H_Barrack_4} to iron helmet
+	set {SG::Messages::War_Item_C_Barrack_4} to iron chestplate
+	set {SG::Messages::War_Item_L_Barrack_4} to iron leggings
+	set {SG::Messages::War_Item_B_Barrack_4} to iron boots
+	set {SG::Messages::War_Item_S_Barrack_4} to iron sword
+	#
+	set {SG::Messages::War_Item_H_Barrack_5} to diamond helmet
+	set {SG::Messages::War_Item_C_Barrack_5} to diamond chestplate
+	set {SG::Messages::War_Item_L_Barrack_5} to diamond leggings
+	set {SG::Messages::War_Item_B_Barrack_5} to diamond boots
+	set {SG::Messages::War_Item_S_Barrack_5} to diamond sword
