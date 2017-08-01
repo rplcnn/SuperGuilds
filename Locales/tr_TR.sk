@@ -434,4 +434,7 @@ on load:
 	set {SG::Messages::Save_Emblem_Button} to "§2§l[§2✓§2§l]§r"
 	set {SG::Messages::Reset_Emblem_Button} to "§4§l[§4✘§4§l]"
 	set {SG::Messages::Use_Emblem_Button} to "§0§l[§0✎§0§l]"
+	set {SG::Messages::Click_To_War} to "||§7Lider: §f{LEADER}||||§7Küme: §f{LEVEL}||||§eBu loncayla savaşmak için tıkla."
+	set {SG::Messages::Header_2} to "Lonca Bulucu"
+	set {SG::Messages::No_Variable_List_2} to "§7Savaşılacak lonca bulunamadı."
 
