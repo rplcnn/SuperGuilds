@@ -72,20 +72,20 @@ on load:
 	set {SG::Messages::Chunk_Error_You} to "§7Bu toprak senin değil."
 	set {SG::Messages::Chunk_Unclaimed} to "§e{LAND}§7 konumunda olan toprağı sildiniz."
 	set {SG::Messages::Buildings_GUI} to "Lonca Binaları"
-	set {SG::Messages::Buildings_Item_1} to crafting table
-	set {SG::Messages::Buildings_Item_2} to any sword
-	set {SG::Messages::Buildings_Item_3} to gold ingot
-	set {SG::Messages::Buildings_Item_4} to xp bottle
-	set {SG::Messages::Buildings_Name_1} to "§6Merkez"
-	set {SG::Messages::Buildings_Name_2} to "§6Baraka"
-	set {SG::Messages::Buildings_Name_3} to "§6Depo"
-	set {SG::Messages::Buildings_Name_4} to "§6Büyücü"
+	set {SG::Messages::Buildings_Item_Townhall} to crafting table
+	set {SG::Messages::Buildings_Item_Barrack} to any sword
+	set {SG::Messages::Buildings_Item_Storage} to gold ingot
+	set {SG::Messages::Buildings_Item_Alchemy} to xp bottle
+	set {SG::Messages::Buildings_Name_Townhall} to "§6Merkez"
+	set {SG::Messages::Buildings_Name_Barrack} to "§6Baraka"
+	set {SG::Messages::Buildings_Name_Storage} to "§6Depo"
+	set {SG::Messages::Buildings_Name_Alchemy} to "§6Büyücü"
 	set {SG::Messages::Buildings_Upgrade} to "§7Binayı yükseltmek için tıkla."
 	set {SG::Messages::Buildings_Lore_0} to "§9§nYükseltildiğinde;"
-	set {SG::Messages::Buildings_Lore_1} to "§7 → Oyuncu kapasitesi artar."
-	set {SG::Messages::Buildings_Lore_2} to "§7 → Savaşa daha iyi eşyalarla başla."
-	set {SG::Messages::Buildings_Lore_3} to "§7 → Depo kapasitesi artar."
-	set {SG::Messages::Buildings_Lore_4} to "§7 → Daha güçlü efekt al."
+	set {SG::Messages::Buildings_Lore_Townhall} to "§7 → Oyuncu kapasitesi artar."
+	set {SG::Messages::Buildings_Lore_Barrack} to "§7 → Savaşa daha iyi eşyalarla başla."
+	set {SG::Messages::Buildings_Lore_Storage} to "§7 → Depo kapasitesi artar."
+	set {SG::Messages::Buildings_Lore_Alchemy} to "§7 → Daha güçlü efekt al."
 	#
 	set {SG::Messages::Buildings_Level} to "§eBina seviyesi: §f{LEVEL}"
 	set {SG::Messages::Romen_Num_1} to "I"
