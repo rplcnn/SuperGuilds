@@ -340,7 +340,7 @@ on load:
 	set {SG::Messages::War_End_Timer} to "&7Savaş &e{MINUTES} &7dakika sonra sona erecek."
 	set {SG::Messages::Game_Finished_Time} to "&7Süre bitti, kimse kazanamadı."
 	set {SG::Messages::No_Command_War} to "&7Savaştayken komut kullanamazsın."
-	set {SG::Messages::War_Death_1} to "&c{VICTIM} ({GUILD})&7, &9{ATTACKER} ({GUILD}) &7tarafından öldürüldü ve savaştan elendi."
+	set {SG::Messages::War_Death_1} to "&c{VICTIM} ({VGUILD})&7, &9{ATTACKER} ({AGUILD}) &7tarafından öldürüldü ve savaştan elendi."
 	set {SG::Messages::War_Win} to "&9{GUILD1} &7vs. &c{GUILD2} &7savaşı sonlandı. &9{GUILD1} &7savaşı kazandı."	
 	set {SG::Messages::New_Division} to "&7Loncanın kümesi &r{OLDDIVISION}&7 kümesinden &r{NEWDIVISION} &7kümesine ayarlandı."
 	set {SG::Messages::War_Points_Add} to "&7Loncan &c{GUILD} &7loncasına karşı olan savaşı kazandığı için &a+{POINTS} ✪ &7aldı."
