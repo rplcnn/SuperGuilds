@@ -1,12 +1,19 @@
-                      Requirments:
-     Before installing this plugin, a few things are required.
-              Skript / SkQuery / WildSkript
-          
-    **  You can download from here: http://republicansensei.com **
 
 
-                      Permissions:
-       guilds.* - All permissions.
-       guilds.admin - Player and Admin commands.
-       guilds.player - Only main commands. (create, remove etc.)
-       guilds.<command> - Command's permission. (exp: g.create)
+
+										You must install;
+											➜ Skript
+								     ➜ Repuska (My Library)
+								Download from 'republicansensei.com'
+											
+							■ Put 'Skript.jar' and 'Repuska.jar' to "plugins/" 
+							■ Put '.sk(s)' and ".skript(s)" to "plugins/Skript/scripts"
+							■ Start server.
+
+
+							/------------------------------------------------\
+									IF YOU FIND A BUG/ISSUE, SEND ME
+									   AFTER USING (/g pastebin)
+								  (Send problem and pastebin link to me)
+							  (And don't forget giving 5 stars to resource <3)
+							\-------------------------------------------------/
