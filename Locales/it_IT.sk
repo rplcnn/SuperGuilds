@@ -354,27 +354,89 @@ on load:
 	set {SG::Messages::War_Item_L_Barrack_1} to leather leggings
 	set {SG::Messages::War_Item_B_Barrack_1} to leather boots
 	set {SG::Messages::War_Item_S_Barrack_1} to stone sword
-	#
 	set {SG::Messages::War_Item_H_Barrack_2} to gold helmet
 	set {SG::Messages::War_Item_C_Barrack_2} to gold chestplate
 	set {SG::Messages::War_Item_L_Barrack_2} to gold leggings
 	set {SG::Messages::War_Item_B_Barrack_2} to gold boots
 	set {SG::Messages::War_Item_S_Barrack_2} to golden sword of unbreaking 10
-	#
 	set {SG::Messages::War_Item_H_Barrack_3} to chain helmet
 	set {SG::Messages::War_Item_C_Barrack_3} to chain chestplate
 	set {SG::Messages::War_Item_L_Barrack_3} to chain leggings
 	set {SG::Messages::War_Item_B_Barrack_3} to chain boots
 	set {SG::Messages::War_Item_S_Barrack_3} to stone sword of sharpness 3
-	#
 	set {SG::Messages::War_Item_H_Barrack_4} to iron helmet
 	set {SG::Messages::War_Item_C_Barrack_4} to iron chestplate
 	set {SG::Messages::War_Item_L_Barrack_4} to iron leggings
 	set {SG::Messages::War_Item_B_Barrack_4} to iron boots
 	set {SG::Messages::War_Item_S_Barrack_4} to iron sword
-	#
 	set {SG::Messages::War_Item_H_Barrack_5} to diamond helmet
 	set {SG::Messages::War_Item_C_Barrack_5} to diamond chestplate
 	set {SG::Messages::War_Item_L_Barrack_5} to diamond leggings
 	set {SG::Messages::War_Item_B_Barrack_5} to diamond boots
 	set {SG::Messages::War_Item_S_Barrack_5} to diamond sword
+	set {SG::Messages::House_Protection} to "§7System will create a base when you create guild so please select empty land."
+	set {SG::Messages::RankStar_Leader} to "§b✯ "
+	set {SG::Messages::RankStar_General} to "§a⚝ "
+	set {SG::Messages::RankStar_Captain} to "§d★ "
+	set {SG::Messages::RankStar_Member} to ""
+	set {SG::Messages::No_Name_Guild} to "§7You can't use this guild name."
+	set {SG::Messages::Claim_Limit} to "§7You can't claim more."
+	set {SG::Messages::Teleport_Spawn_1} to "§c{ATTACKER}§7 kicked you from land."
+	set {SG::Messages::Teleport_Spawn_2} to "§7You kicked §c{VICTIM}§7 from land."
+	set {SG::Messages::No_Market_Guild} to "§7This guild doesn't have a guild market."
+	set {SG::Messages::Done_Set_Market} to "You have set the guild market location."
+	set {SG::Messages::Teleport_Market} to "§7You have been teleported to §a{GUILD}§7."
+	set {SG::Messages::Visit_Market} to "§9{PLAYER} §7visiting your guild market."
+	set {SG::Messages::Done_Remove_Market} to "§7Your guild market has removed."
+	set {SG::Messages::Already_Have_Market} to "§7You already have guild market."
+	set {SG::Messages::Death_Broadcast} to "§3[{VGUILD}] §9{VICTIM}§7 killed by §6[{AGUILD}] §e{ATTACKER} §4[-{GOLD} Gold]"
+	set {SG::Messages::Death_Gold_Gain} to "Your guild gain §e+{GOLD} Gold §7because §7{RANK} {PLAYER}§7 killed someone."
+	set {SG::Messages::Death_Gold_Loss} to "Your guild loss §4-{GOLD} Gold §7because §7{RANK} {PLAYER}§7 died by someone."
+	set {SG::Messages::Buildings_Broadcast_TNT} to "§7TNTs won't explode in your claimed lands."
+	set {SG::Messages::Buildings_Lore_TNT} to "§7 → TNT won't explode in your claimed lands."
+	set {SG::Messages::Guild_Info_4} to "§6Guild Market"
+	set {SG::Messages::Text_Status} to "§7Status:"
+	set {SG::Messages::Text_On} to "§fOn"
+	set {SG::Messages::Text_Off} to "§fOff"
+	set {SG::Messages::Click_To_Teleport} to "§7Click here to teleport."
+	set {SG::Messages::Back_Item} to "160:14" parsed as material
+	set {SG::Messages::Forward_Item} to "160:13" parsed as material
+	set {SG::Messages::Menu_Item} to "160:15" parsed as material
+	set {SG::Messages::Click_To_Select_Color} to "§fClick me to select this as your dye."
+	set {SG::Messages::Click_To_Dye_Here} to "Click me to dye here."
+	set {SG::Messages::Save_Emblem_Lore} to "§fClick me to save and apply emblem."
+	set {SG::Messages::Reset_Emblem_Lore} to "§fClick me to clear your draft."
+	set {SG::Messages::Use_Emblem_Lore} to "§fClick me to edit emblem of your guild."
+	set {SG::Messages::Menu_Donate_GUI} to "Put Golds To Here"
+	set {SG::Messages::Wilderness_Text} to "§2§l§nWilderness§r §2§l⚘"
+	set {SG::Messages::Wilderness_Msg_1} to "§7§oI love nature..."
+	set {SG::Messages::Wilderness_Msg_2} to "§7§oI feel like free..."
+	set {SG::Messages::Wilderness_Msg_3} to "§7§oI am a free man and I need my freedom."
+	set {SG::Messages::Wilderness_Msg_4} to "§7§oThe secret to happiness is nature."
+	set {SG::Messages::Home_Text} to "§a§l§nHome§r §a§l⌂"
+	set {SG::Messages::Home_Msg_1} to "§7§oHome sweet home..."
+	set {SG::Messages::Home_Msg_2} to "§7§oNothing is better than going home."
+	set {SG::Messages::Home_Msg_3} to "§7You found what you need and return home."
+	set {SG::Messages::Home_Msg_4} to "§7A man's house is his castle."
+	set {SG::Messages::Other_Guild_Text} to "§4§l§n{GUILD}§r §4§l☠"
+	set {SG::Messages::Other_Guild_Msg_1} to "§7§oBe careful."
+	set {SG::Messages::Other_Guild_Msg_2} to "§7Shh, they can hear us."
+	set {SG::Messages::Other_Guild_Msg_3} to "§7An another guild here."
+	set {SG::Messages::Other_Guild_Msg_4} to "§7To the war!"
+	set {SG::Messages::Emblem_Menu} to "§0§l  » GUILD EMBLEM"
+	set {SG::Messages::Save_Emblem_Button} to "§2§l[§2✓§2§l]§r"
+	set {SG::Messages::Reset_Emblem_Button} to "§4§l[§4✘§4§l]"
+	set {SG::Messages::Use_Emblem_Button} to "§0§l[§0✎§0§l]"
+	set {SG::Messages::Click_To_War} to "||§7Leader: §f{LEADER}||||§7Division: §f{LEVEL}||||§eClick to war with this guild."
+	set {SG::Messages::Header_2} to "Guild Finder"
+	set {SG::Messages::No_Variable_List_2} to "§7No guilds to war."
+	set {SG::Messages::Score_Prefix} to "§7§6§lSUPERGUILDS"
+	set {SG::Messages::Score_Msg_9} to "§b    "
+	set {SG::Messages::Score_Msg_8} to "§fTime: §e{TIME} min(s)"
+	set {SG::Messages::Score_Msg_7} to "§a     "
+	set {SG::Messages::Score_Msg_6} to "§9§n{GUILD1}:"
+	set {SG::Messages::Score_Msg_5} to "§f{PLY1}/{MAX1}  "
+	set {SG::Messages::Score_Msg_4} to "§2  "
+	set {SG::Messages::Score_Msg_3} to "§c§n{GUILD2}:"
+	set {SG::Messages::Score_Msg_2} to "§f{PLY2}/{MAX2} "
+	set {SG::Messages::Score_Msg_1} to "§1 "
