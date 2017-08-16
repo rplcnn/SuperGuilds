@@ -72,20 +72,20 @@ on load:
 	set {SG::Messages::Chunk_Error_You} to "§7Эта земля не ваша."
 	set {SG::Messages::Chunk_Unclaimed} to "§7Вы ушли с земли §e{LAND}§7."
 	set {SG::Messages::Buildings_GUI} to "Постройки Гильдии"
-	set {SG::Messages::Buildings_Item_1} to crafting table
-	set {SG::Messages::Buildings_Item_2} to any sword
-	set {SG::Messages::Buildings_Item_3} to gold ingot
-	set {SG::Messages::Buildings_Item_4} to xp bottle
-	set {SG::Messages::Buildings_Name_1} to "§6Ратуша"
-	set {SG::Messages::Buildings_Name_2} to "§6Барак"
-	set {SG::Messages::Buildings_Name_3} to "§6Хранилище"
-	set {SG::Messages::Buildings_Name_4} to "§6Алхимия"
+	set {SG::Messages::Buildings_Item_Townhall} to crafting table
+	set {SG::Messages::Buildings_Item_Barrack} to any sword
+	set {SG::Messages::Buildings_Item_Storage} to gold ingot
+	set {SG::Messages::Buildings_Item_Alchemy} to xp bottle
+	set {SG::Messages::Buildings_Name_Townhall} to "§6Ратуша"
+	set {SG::Messages::Buildings_Name_Barrack} to "§6Барак"
+	set {SG::Messages::Buildings_Name_Storage} to "§6Хранилище"
+	set {SG::Messages::Buildings_Name_Alchemy} to "§6Алхимия"
 	set {SG::Messages::Buildings_Upgrade} to "§aНажмите, чтобы прокачать это строение."
 	set {SG::Messages::Buildings_Lore_0} to "§9§nКогда Прокачано;"
-	set {SG::Messages::Buildings_Lore_1} to "§7 → Увеличивает лимит игроков в гильдии."
-	set {SG::Messages::Buildings_Lore_2} to "§7 → Начните войну с более мощными предметами"
-	set {SG::Messages::Buildings_Lore_3} to "§7 → Увеличивает ёмкость хранилища гильдии."
-	set {SG::Messages::Buildings_Lore_4} to "§7 → Получите более мощные эффекты."
+	set {SG::Messages::Buildings_Lore_Townhall} to "§7 → Увеличивает лимит игроков в гильдии."
+	set {SG::Messages::Buildings_Lore_Barrack} to "§7 → Начните войну с более мощными предметами"
+	set {SG::Messages::Buildings_Lore_Storage} to "§7 → Увеличивает ёмкость хранилища гильдии."
+	set {SG::Messages::Buildings_Lore_Alchemy} to "§7 → Получите более мощные эффекты."
 	set {SG::Messages::Buildings_Level} to "§eУроветь Строения: §f{LEVEL}"
 	set {SG::Messages::Romen_Num_1} to "I"
 	set {SG::Messages::Romen_Num_2} to "II"
@@ -165,10 +165,10 @@ on load:
 	set {SG::Messages::No_Magic_Guild} to "§7В вашей гильдии недостаточно магии."
 	set {SG::Messages::Limit_Buildings} to "§7Вы достигли максимальной прокачки этого здания."
 	set {SG::Messages::Building_Upgrade} to "§7{RANK} {PLAYER}§7, прокачал {BUILD} §7до уровня §e{NUMBER}§7."
-	set {SG::Messages::Buildings_Broadcast_1} to "§7Мощьность гильдии увеличена: §a+{NUM}"
-	set {SG::Messages::Buildings_Broadcast_2} to "§7Ваша гильдия начнёт войну с {ITEM}§7."
-	set {SG::Messages::Buildings_Broadcast_3} to "§7Хранилище гильдии увеличено: §a+500"
-	set {SG::Messages::Buildings_Broadcast_4} to "§7Теперь ваша гильдия может использовать следующий уровень алхимии."
+	set {SG::Messages::Buildings_Broadcast_Townhall} to "§7Мощьность гильдии увеличена: §a+{NUM}"
+	set {SG::Messages::Buildings_Broadcast_Barrack} to "§7Ваша гильдия начнёт войну с {ITEM}§7."
+	set {SG::Messages::Buildings_Broadcast_Storage} to "§7Хранилище гильдии увеличено: §a+500"
+	set {SG::Messages::Buildings_Broadcast_Alchemy} to "§7Теперь ваша гильдия может использовать следующий уровень алхимии."
 	set {SG::Messages::Showing_Claims} to "§7Теперь вы можете увидеть все завоёванные земли. Если вы не хотите их видеть, перезайдите на сервер."
 	set {SG::Messages::No_Claims} to "§7У вашей гильдии нет земель."
 	set {SG::Messages::Show_Claim_Wait} to "§7Вам нужно подождать §e{TIME} §7чтобы показать все земли."
