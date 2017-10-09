@@ -1,6 +1,7 @@
 # Traducción completa por HellFireb, SUPERGUILDS REPUBLICANSENSEI
 # Plugin SuperGuilds
 on load:
+	set {SG::Messages::Locale_Version} to "910"
 	set {SG::Messages::Prefix} to "§6§lGREMIOS §6➥§7"
 	set {SG::Messages::Char_Error} to "§7El texto tiene carácteres inapropiados."
 	set {SG::Messages::WorldGuard_Error} to "§7Este lugar esta bajo una protección."
@@ -443,3 +444,12 @@ on load:
 	set {SG::Messages::Score_Msg_3} to "§c§n{GUILD2}:"
 	set {SG::Messages::Score_Msg_2} to "§f{PLY2}/{MAX2} "
 	set {SG::Messages::Score_Msg_1} to "§1 "
+	set {SG::Messages::Player_No_Guild} to "§7This player does not have a guild."
+	set {SG::Messages::Menu_Donate_GUI} to "Put Resources To Here"
+	set {SG::Messages::No_Item_Magic} to "§7You don't have §9{NUMBER} diamond(s) §7to donate."
+	set {SG::Messages::Buildings_Item_Alchemy} to diamond
+	set {SG::Messages::Store_Name_Magic} to "§b§nMagic Source"
+	set {SG::Messages::Store_Color_2} to "§b"
+	set {SG::Messages::Donate_Must_Be_Gold_Magic} to "§7Donations can only be §e§ngold§r§7 or §b§nmagic§r§7."
+	set {SG::Messages::Cant_Attack_Member} to "§7You can't attack your guild-mates."
+
