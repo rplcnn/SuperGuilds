@@ -447,3 +447,11 @@ on load:
 	set {SG::Messages::Score_Msg_3} to "§c§n{GUILD2}:"
 	set {SG::Messages::Score_Msg_2} to "§f{PLY2}/{MAX2} "
 	set {SG::Messages::Score_Msg_1} to "§1 "
+	set {SG::Messages::Player_No_Guild} to "§7Bu oyuncunun bir loncası yok."
+	set {SG::Messages::Menu_Donate_GUI} to "Kaynakları Buraya Koy"
+	set {SG::Messages::No_Item_Magic} to "§7Bağışlayacak §9{NUMBER} elmas&7'ın yok."
+	set {SG::Messages::Buildings_Item_Alchemy} to diamond
+	set {SG::Messages::Store_Name_Magic} to "§b§nSihir Kaynağı"
+	set {SG::Messages::Store_Color_2} to "§b"
+	set {SG::Messages::Donate_Must_Be_Gold_Magic} to "§7Bağışlar sadece §e§ngold§r§7 ya da §b§nmagic§r§7 olabilir."
+	set {SG::Messages::Cant_Attack_Member} to "§7Lonca arkadaşlarına saldıramazsın."
