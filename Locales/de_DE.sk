@@ -442,7 +442,7 @@ on load:
 	set {SG::Messages::Score_Msg_3} to "§c§n{GUILD2}:"
 	set {SG::Messages::Score_Msg_2} to "§f{PLY2}/{MAX2} "
 	set {SG::Messages::Score_Msg_1} to "§1 "
-	set {SF::Messages::Player_No_Guild} to "§7This player does not have a guild."
+	set {SG::Messages::Player_No_Guild} to "§7This player does not have a guild."
 	set {SG::Messages::Menu_Donate_GUI} to "Put Resources To Here"
 	set {SG::Messages::No_Item_Magic} to "§7You don't have §9{NUMBER} diamond(s) §7to donate."
 	set {SG::Messages::Buildings_Item_Alchemy} to diamond
