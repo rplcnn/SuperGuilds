@@ -102,8 +102,6 @@ on load:
 	set {SG::Messages::Store_Color_1} to "§e"
 	set {SG::Messages::Store_Color_2} to "§9"
 	set {SG::Messages::Store_Status} to "§7Verfuegbar: §f{NUMBER}"
-	set {SG::Messages::Donate_Lore_Gold} to "§7Click um 32 Gold zu spenden."
-	set {SG::Messages::Donate_Lore_Magic} to "§7Click um 1 Magic zu spenden."
 	set {SG::Messages::Help_Pages_1::Line_1} to "§e/guilds help §8- §7Oeffnet Hilfe Seite."
 	set {SG::Messages::Help_Pages_1::Line_2} to "§e/guilds create <guild name> §8- §7Erstelle ein Guild."
 	set {SG::Messages::Help_Pages_1::Line_3} to "§e/guilds remove §8- §7Loesche das jetzige Guild."
@@ -444,10 +442,11 @@ on load:
 	set {SG::Messages::Score_Msg_1} to "§1 "
 	set {SG::Messages::Player_No_Guild} to "§7This player does not have a guild."
 	set {SG::Messages::Menu_Donate_GUI} to "Put Resources To Here"
-	set {SG::Messages::No_Item_Magic} to "§7You don't have §9{NUMBER} diamond(s) §7to donate."
+	set {SG::Messages::No_Item_Magic} to "§7You don't have §b{NUMBER} diamond(s) §7to donate."
 	set {SG::Messages::Buildings_Item_Alchemy} to diamond
 	set {SG::Messages::Store_Name_Magic} to "§b§nMagic Source"
 	set {SG::Messages::Store_Color_2} to "§b"
 	set {SG::Messages::Donate_Must_Be_Gold_Magic} to "§7Donations can only be §e§ngold§r§7 or §b§nmagic§r§7."
 	set {SG::Messages::Cant_Attack_Member} to "§7You can't attack your guild-mates."
-
+	set {SG::Messages::Donate_Lore_Gold} to "§7Click to donate gold source."
+	set {SG::Messages::Donate_Lore_Magic} to "§7Click to donate magic source."
