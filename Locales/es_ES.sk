@@ -75,20 +75,8 @@ on load:
 	set {SG::Messages::Chunk_Error_You} to "§7Este terreno no es tuyo."
 	set {SG::Messages::Chunk_Unclaimed} to "§7Has unclaimeado §e{LAND}§7."
 	set {SG::Messages::Buildings_GUI} to "Construcciones del gremio"
-	set {SG::Messages::Buildings_Item_1} to crafting table
-	set {SG::Messages::Buildings_Item_2} to any sword
-	set {SG::Messages::Buildings_Item_3} to gold ingot
-	set {SG::Messages::Buildings_Item_4} to xp bottle
-	set {SG::Messages::Buildings_Name_1} to "§6Ayuntamiento"
-	set {SG::Messages::Buildings_Name_2} to "§6Barracones"
-	set {SG::Messages::Buildings_Name_3} to "§6Almacenamiento"
-	set {SG::Messages::Buildings_Name_4} to "§6Alquimia"
 	set {SG::Messages::Buildings_Upgrade} to "§aClick para mejorar esto"
 	set {SG::Messages::Buildings_Lore_0} to "§9§nCuando sea mejorado;"
-	set {SG::Messages::Buildings_Lore_1} to "§7 → Incrementa al doble el límite de jugadores."
-	set {SG::Messages::Buildings_Lore_2} to "§7 → Empieza la guerra con objetos más fuertes."
-	set {SG::Messages::Buildings_Lore_3} to "§7 → Incrementa el almacenamiento del gremio."
-	set {SG::Messages::Buildings_Lore_4} to "§7 → Otorga numerosos efectos fuertes."
 	set {SG::Messages::Buildings_Level} to "§eNivel de construcción: §f{LEVEL}"
 	set {SG::Messages::Romen_Num_1} to "I"
 	set {SG::Messages::Romen_Num_2} to "II"
@@ -452,3 +440,14 @@ on load:
 	set {SG::Messages::Cant_Attack_Member} to "§7You can't attack your guild-mates."
 	set {SG::Messages::Donate_Lore_Gold} to "§7Click to donate gold source."
 	set {SG::Messages::Donate_Lore_Magic} to "§7Click to donate magic source."
+	set {SG::Messages::Buildings_Item_Townhall} to crafting table
+	set {SG::Messages::Buildings_Item_Barrack} to any sword
+	set {SG::Messages::Buildings_Item_Storage} to gold ingot
+	set {SG::Messages::Buildings_Name_Townhall} to "§6Townhall"
+	set {SG::Messages::Buildings_Name_Barrack} to "§6Barrack"
+	set {SG::Messages::Buildings_Name_Storage} to "§6Storage"
+	set {SG::Messages::Buildings_Name_Alchemy} to "§6Alchemy"
+	set {SG::Messages::Buildings_Lore_Townhall} to "§7 → Increases player limit of guild."
+	set {SG::Messages::Buildings_Lore_Barrack} to "§7 → Start the war with more powerful items."
+	set {SG::Messages::Buildings_Lore_Storage} to "§7 → Increases capacity of guild storage."
+	set {SG::Messages::Buildings_Lore_Alchemy} to "§7 → Get more powerful effects."
