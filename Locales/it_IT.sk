@@ -73,20 +73,20 @@ on load:
 	set {SG::Messages::Chunk_Error_You} to "§7Questa terra non ti appartiene."
 	set {SG::Messages::Chunk_Unclaimed} to "§7Hai lasciato la terra §e{LAND}§7."
 	set {SG::Messages::Buildings_GUI} to "Edifici di Gilda"
-	set {SG::Messages::Buildings_Item_1} to crafting table
-	set {SG::Messages::Buildings_Item_2} to any sword
-	set {SG::Messages::Buildings_Item_3} to gold ingot
-	set {SG::Messages::Buildings_Item_4} to xp bottle
-	set {SG::Messages::Buildings_Name_1} to "§6Sede Principale"
-	set {SG::Messages::Buildings_Name_2} to "§6Addestramento"
-	set {SG::Messages::Buildings_Name_3} to "§6Deposito"
-	set {SG::Messages::Buildings_Name_4} to "§6Alchimia"
+	set {SG::Messages::Buildings_Item_Townhall} to crafting table
+	set {SG::Messages::Buildings_Item_Barrack} to any sword
+	set {SG::Messages::Buildings_Item_Storage} to gold ingot
+	set {SG::Messages::Buildings_Item_Alchemy} to xp bottle
+	set {SG::Messages::Buildings_Name_Townhall} to "§6Sede Principale"
+	set {SG::Messages::Buildings_Name_Barrack} to "§6Addestramento"
+	set {SG::Messages::Buildings_Name_Storage} to "§6Deposito"
+	set {SG::Messages::Buildings_Name_Alchemy} to "§6Alchimia"
 	set {SG::Messages::Buildings_Upgrade} to "§aClick per migliorare e sviluppare novità."
 	set {SG::Messages::Buildings_Lore_0} to "§9§nAl prossimo livello;"
-	set {SG::Messages::Buildings_Lore_1} to "§7 → Aumenta numero limite di affiliati."
-	set {SG::Messages::Buildings_Lore_2} to "§7 → Inizia una guerra con items molto più potenti."
-	set {SG::Messages::Buildings_Lore_3} to "§7 → Incrementa la capacità del deposito."
-	set {SG::Messages::Buildings_Lore_4} to "§7 → Acquisisci più effetti potenti."
+	set {SG::Messages::Buildings_Lore_Townhall} to "§7 → Aumenta numero limite di affiliati."
+	set {SG::Messages::Buildings_Lore_Barrack} to "§7 → Inizia una guerra con items molto più potenti."
+	set {SG::Messages::Buildings_Lore_Storage} to "§7 → Incrementa la capacità del deposito."
+	set {SG::Messages::Buildings_Lore_Alchemy} to "§7 → Acquisisci più effetti potenti."
 	set {SG::Messages::Buildings_Level} to "§eLivello: §f{LEVEL}"
 	set {SG::Messages::Romen_Num_1} to "I"
 	set {SG::Messages::Romen_Num_2} to "II"
