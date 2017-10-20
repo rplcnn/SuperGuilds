@@ -1,5 +1,5 @@
 on load:
-	set {SG::Messages::Locale_Version} to "2010"
+	set {SG::Messages::Locale_Version} to "2010" 
 	set {SG::Messages::Prefix} to "§6§lSUPERGUILDS §6➥§7"
 	set {SG::Messages::Char_Error} to "§7Il testo contiene caratteri inappropriati."
 	set {SG::Messages::WorldGuard_Error} to "§7Questo è protetto da WorldGuard."
