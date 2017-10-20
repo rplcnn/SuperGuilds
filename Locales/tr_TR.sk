@@ -1,5 +1,5 @@
 on load:
-	set {SG::Messages::Locale_Version} to "910"
+	set {SG::Messages::Locale_Version} to "2010"
 	set {SG::Messages::Prefix} to "§6§lSUPERGUILDS §6➥§7"
 	set {SG::Messages::Char_Error} to "Yazdığınız şey desteklenmeyen karakter(ler) içeriyor."
 	set {SG::Messages::WorldGuard_Error} to "Burası WorldGuard tarafından korumalı."
@@ -456,3 +456,9 @@ on load:
 	set {SG::Messages::Cant_Attack_Member} to "§7Lonca arkadaşlarına saldıramazsın."
 	set {SG::Messages::Donate_Lore_Gold} to "§7Altın kaynağı bağışlamak için tıkla."
 	set {SG::Messages::Donate_Lore_Magic} to "§7Sihir kaynağı bağışlamak için tıkla."	
+	set {SG::Messages::Enter_MOTD} to "§7Günün mesajını gir."
+	set {SG::Messages::MOTD_Changed} to "§7Günün mesajı §a{BY}§7 tarafından değiştirildi."
+	set {SG::Messages::MOTD_Removed} to "§7Günün mesajı §a{BY}§7 tarafından kaldırıldı."
+	set {SG::Messages::MOTD_Title} to "§f← §e§l§nGÜNÜN MESAJI§r §f→"
+	set {SG::Messages::MOTD_SubTitle} to "§7§o{MESSAGE}"
+	set {SG::Messages::MOTD_ActionBar} to "§fGünün mesajını §a{BY}§f gönderdi. §f({DATE})"
