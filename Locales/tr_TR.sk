@@ -1,5 +1,5 @@
 on load:
-	set {SG::Messages::Locale_Version} to "2010"
+	set {SG::Messages::Locale_Version} to "2010" 
 	set {SG::Messages::Prefix} to "§6§lSUPERGUILDS §6➥§7"
 	set {SG::Messages::Char_Error} to "Yazdığınız şey desteklenmeyen karakter(ler) içeriyor."
 	set {SG::Messages::WorldGuard_Error} to "Burası WorldGuard tarafından korumalı."
