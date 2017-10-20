@@ -1,5 +1,5 @@
 on load:
-	set {SG::Messages::Locale_Version} to "910"
+	set {SG::Messages::Locale_Version} to "2010"
 	set {SG::Messages::Prefix} to "§6§lSUPERGUILDS §6➥§7"
 	set {SG::Messages::Char_Error} to "§7Il testo contiene caratteri inappropriati."
 	set {SG::Messages::WorldGuard_Error} to "§7Questo è protetto da WorldGuard."
@@ -449,3 +449,9 @@ on load:
 	set {SG::Messages::Cant_Attack_Member} to "§7You can't attack your guild-mates."
 	set {SG::Messages::Donate_Lore_Gold} to "§7Click per donare lingotti d'oro."
 	set {SG::Messages::Donate_Lore_Magic} to "§7Click per donare magici livelli."
+	set {SG::Messages::Enter_MOTD} to "§7Enter the message of the day."
+	set {SG::Messages::MOTD_Changed} to "§7Message of the Day has changed by §a{BY}§7."
+	set {SG::Messages::MOTD_Removed} to "§7Message of the Day has removed by §a{BY}§7."
+	set {SG::Messages::MOTD_Title} to "§f← §e§l§nMOTD§r §f→"
+	set {SG::Messages::MOTD_SubTitle} to "§7§o{MESSAGE}"
+	set {SG::Messages::MOTD_ActionBar} to "§fMessage of the Day by §a{BY}§f. §f({DATE})"
