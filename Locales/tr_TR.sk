@@ -528,3 +528,4 @@ on load:
 	set {SG::Messages::Tournaments_You_Won_Waiting} to "||§7Loncanız savaşı kazandı ve.||§7yeni rakibinizi bekliyorsunuz."
 	set {SG::Messages::Guild_Removed_Tournament} to "§7Loncanız turnuvadan çıkarıldı çünkü turnuvadaki takımların sayısı adil olmayacaktı."
 	set {SG::Messages::Tournament_Won_Broadcast} to "§a{GUILD}§7, Turnuva'yı kazandı. (§a+{POINTS} ✪§7)"
+	set {SG::Messages::Manage_Panel_Tournament} to "&6Lonca Turnuvası"
