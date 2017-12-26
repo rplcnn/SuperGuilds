@@ -1,5 +1,5 @@
 on load:
-	set {SG::Locale_Version} to "2612"
+	set {SG::Locale_Version} to "2712"
 	set {SG::Messages::Prefix} to "§6§lSUPERGUILDS §6➥§7"
 	set {SG::Messages::Char_Error} to "§7Текст содержит неприемлемые символы."
 	set {SG::Messages::WorldGuard_Error} to "§7Защищено WorldGuard."
@@ -520,4 +520,18 @@ on load:
 	set {SG::Messages::Guild_Removed_Tournament} to "§7Your guild has been removed from tournament due to 'guild count must be double'"
 	set {SG::Messages::Tournament_Won_Broadcast} to "§a{GUILD} §7won the Tournament and gained §a+{POINTS} ✪§7."
 	set {SG::Messages::Manage_Panel_Tournament} to "§6Guild Tournament"
-
+	set {SG::Messages::Locale_GUI_Name} to "Language Select"
+	set {SG::Messages::Click_Select_Locale} to "||§7Click to select this locale."
+	set {SG::Messages::Locale_en_US} to "§6English (United States)"
+	set {SG::Messages::Locale_es_ES} to "§6Español"
+	set {SG::Messages::Locale_de_DE} to "§6Deutsch"
+	set {SG::Messages::Locale_it_IT} to "§6Italiano"
+	set {SG::Messages::Locale_ru_RU} to "§6Руска"
+	set {SG::Messages::Locale_tr_TR} to "§6Türkçe"
+	set {SG::Messages::Allow_Or_Disallow} to "§7Use §a'/sgallow region allow <region>' §7to give access create guilds on region. For delete this use §c'/sgadmin region disallow <region>'§7. To check regions use §e'/sgadmin region list'§7."
+	set {SG::Messages::No_Region_Found} to "§7There are no regions allowed."
+	set {SG::Messages::Region_List} to "          §a§nAllowed Region List"
+	set {SG::Messages::Forward_Glass} to "160:13" parsed as material
+	set {SG::Messages::Top_Guilds} to "Top Guilds"
+	set {SG::Messages::Click_To_Info} to "||§7Leader: §f{LEADER}||§7War Points: §f{POINTS} ✪||§7Division: §f{LEVEL}||||§eClick to see information of this guild."
+	set {SG::Messages::War_Top_GUI} to "§7Click to check top guilds list."
