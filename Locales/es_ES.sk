@@ -1,8 +1,8 @@
 # Traducción completa por HellFireb, SUPERGUILDS REPUBLICANSENSEI
 # Plugin SuperGuilds
 on load:
-	set {SG::Locale_Version} to "0202"
-	set {SG::Messages::Prefix} to "§6§lGREMIOS §6➥§7"
+	set {SG::Locale_Version} to "0201"
+	set {SG::Messages::Prefix} to "§6§lSUPERGUILDS §6➥§7"
 	set {SG::Messages::Char_Error} to "§7El texto tiene carácteres inapropiados."
 	set {SG::Messages::WorldGuard_Error} to "§7Este lugar esta bajo una protección."
 	set {SG::Messages::Chunk_Error} to "§7Hay un gremio establecido aquí."
@@ -540,4 +540,5 @@ on load:
 	set {SG::Messages::Locale_zh_CN} to "§6渔乐"
 	set {SG::Messages::War_Death_0} to ""&9{VICTIM} ({VGUILD}) &7has died and eliminated from war."
 	set {SG::Messages::Locale_vn_VN} to "§6Tiếng Việt"
+	set {SG::Messages::Locale_fr_FR} to "§6Français"
 
