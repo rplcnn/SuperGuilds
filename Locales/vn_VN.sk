@@ -1,6 +1,6 @@
 #A translate by: Jeamsteven
 on load:
-	set {SG::Locale_Version} to "0202"
+	set {SG::Locale_Version} to "0201"
 	set {SG::Messages::Prefix} to "&6&lSUPERGUILDS &6➥&7"
 	set {SG::Messages::Char_Error} to "§7Văn bản chứa các ký tự không thích hợp."
 	set {SG::Messages::WorldGuard_Error} to "§7Có sự bảo vệ của WorldGuard."
@@ -521,3 +521,4 @@ on load:
 	set {SG::Messages::War_Top_GUI} to "§7Bấm để kiểm tra danh sách 10 guild hàng đầu."
 	set {SG::Messages::Locale_zh_CN} to "§6渔乐"
 	set {SG::Messages::Locale_vn_VN} to "§6Tiếng Việt"
+	set {SG::Messages::Locale_fr_FR} to "§6Français"
