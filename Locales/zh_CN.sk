@@ -519,3 +519,4 @@ on load:
 	set {SG::Messages::War_Top_GUI} to "§7点击查看公会排行列表."
 	set {SG::Messages::War_Death_0} to "§9{VICTIM} ({VGUILD}) §7已在公会战争中阵亡."
 	set {SG::Messages::Locale_zh_CN} to "§6渔乐"
+	set {SG::Messages::Locale_vn_VN} to "§6Tiếng Việt"
