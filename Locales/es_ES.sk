@@ -1,7 +1,7 @@
 # Traducción completa por HellFireb, SUPERGUILDS REPUBLICANSENSEI
 # Plugin SuperGuilds
 on load:
-	set {SG::Locale_Version} to "2712"
+	set {SG::Locale_Version} to "0101"
 	set {SG::Messages::Prefix} to "§6§lGREMIOS §6➥§7"
 	set {SG::Messages::Char_Error} to "§7El texto tiene carácteres inapropiados."
 	set {SG::Messages::WorldGuard_Error} to "§7Este lugar esta bajo una protección."
@@ -537,4 +537,5 @@ on load:
 	set {SG::Messages::Top_Guilds} to "Top Guilds"
 	set {SG::Messages::Click_To_Info} to "||§7Leader: §f{LEADER}||§7War Points: §f{POINTS} ✪||§7Division: §f{LEVEL}||||§eClick to see information of this guild."
 	set {SG::Messages::War_Top_GUI} to "§7Click to check top guilds list."
+	set {SG::Messages::Locale_zh_CN} to "§6渔乐"
 
