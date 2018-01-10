@@ -1,7 +1,7 @@
 # Traducción completa por HellFireb, SUPERGUILDS REPUBLICANSENSEI
 # Plugin SuperGuilds
 on load:
-	set {SG::Locale_Version} to "0201"
+	set {SG::Locale_Version} to "1001"
 	set {SG::Messages::Prefix} to "§6§lSUPERGUILDS §6➥§7"
 	set {SG::Messages::Char_Error} to "§7El texto tiene carácteres inapropiados."
 	set {SG::Messages::WorldGuard_Error} to "§7Este lugar esta bajo una protección."
@@ -485,7 +485,7 @@ on load:
 	set {SG::Messages::Updated_Locale} to "§7Locale file has been updated. (Old: {OLD} - New: {NEW})"
 	set {SG::Messages::Locale_Update_Already} to "§7Locale file couldn't be updated. Are you sure is it outdated?"
 	set {SG::Messages::Updated_Locale_Replace} to "§7Added §6{NEW} §7new messages to locale file."
-	set {SG::Messages::Tournaments_Name} to "Tournaments [ALPHA v0.1]"
+	set {SG::Messages::Tournaments_Name} to "Tournaments"
 	set {SG::Messages::Tournaments_Status_Off_Item} to "166" parsed as material
 	set {SG::Messages::Tournaments_Status_Off_Name} to "§4⚠"
 	set {SG::Messages::Tournaments_Status_Off_Lore} to "||§7The Tournament is not active||§7at the moment and try again later."
