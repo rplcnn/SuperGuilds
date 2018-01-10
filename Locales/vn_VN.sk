@@ -277,7 +277,7 @@ on load:
 	set {SG::Messages::Menu_War_Lore_3} to "§7Bấm vào đây để xem các guild hàng đầu."
 	set {SG::Messages::Disabled_Chat} to "§7Bạn vô hiệu hóa chat guild. Tin nhắn của bạn có thể được xem bởi tất cả người chơi."
 	set {SG::Messages::Enabled_Chat} to "§7Bạn đã kích hoạt chat guild. Thông điệp của bạn chỉ có thể được xem bởi các thành viên của guild."
-	set {SG::Messages::Guild_Chat} to "§7[§a§l☠§aMINE108§7]"
+	set {SG::Messages::Guild_Chat} to "§7[§a§l☠§7]"
 	set {SG::Messages::Number_Online} to "§8(§a{PLAYER} §7online§8)"
 	set {SG::Messages::Text_Month} to "tháng(s)"
 	set {SG::Messages::Text_Day} to "ngày(s)"
@@ -467,7 +467,7 @@ on load:
 	set {SG::Messages::Help_Pages_4::Line_4} to "§e/g giaitan §8- §7Xóa Guild của bạn."
 	set {SG::Messages::Updated_Locale} to "§7Locale file has been updated. (Old: {OLD} - New: {NEW})"
 	set {SG::Messages::Updated_Locale_Replace} to "§7Added §6{NEW} §7new messages to locale file."
-    set {SG::Messages::Tournaments_Name} to "Giải Đấu [MINE108]"
+    	set {SG::Messages::Tournaments_Name} to "Giải Đấu"
 	set {SG::Messages::Tournaments_Status_Off_Item} to "166" parsed as material
 	set {SG::Messages::Tournaments_Status_Off_Name} to "§4⚠"
 	set {SG::Messages::Tournaments_Status_Off_Lore} to "||§7Giải đấu Chưa Mở||§7hãy trở lại sau."
