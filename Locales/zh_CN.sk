@@ -465,7 +465,7 @@ on load:
 	set {SG::Messages::Updated_Locale} to "§7本地文件已更新. (旧: {OLD} - 新: {NEW})"
 	set {SG::Messages::Locale_Update_Already} to "§7本地文件无法更新,你确定他是过期的文件?"
 	set {SG::Messages::Updated_Locale_Replace} to "§7已添加 §6{NEW} §7新信息到本地文件."
-	set {SG::Messages::Tournaments_Name} to "Tournaments [ALPHA v0.1]"
+	set {SG::Messages::Tournaments_Name} to "Tournaments"
 	set {SG::Messages::Tournaments_Status_Off_Item} to "166" parsed as material
 	set {SG::Messages::Tournaments_Status_Off_Name} to "§4⚠"
 	set {SG::Messages::Tournaments_Status_Off_Lore} to "||§7The Tournament is not active||§7at the moment and try again later."
