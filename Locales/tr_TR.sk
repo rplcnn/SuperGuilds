@@ -490,7 +490,7 @@ on load:
 	set {SG::Messages::Updated_Locale} to "§7Dil dosyası güncellendi. (Eskisi: {OLD} - Yenisi: {NEW})"
 	set {SG::Messages::Locale_Update_Already} to "§7Dil dosyası yenilenemedi, eski olduğundan emin misin?"
 	set {SG::Messages::Updated_Locale_Replace} to "§7Yeni §6{NEW} §7mesaj dil dosyasına eklendi."
-	set {SG::Messages::Tournaments_Name} to "Turnuvalar [ALPHA v0.1]"
+	set {SG::Messages::Tournaments_Name} to "Turnuvalar"
 	set {SG::Messages::Tournaments_Status_Off_Item} to "166" parsed as material
 	set {SG::Messages::Tournaments_Status_Off_Name} to "§4⚠"
 	set {SG::Messages::Tournaments_Status_Off_Lore} to "||§7Şu anda Turnuvalar aktif||§7değil daha sonra tekrar deneyin."
