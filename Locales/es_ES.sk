@@ -1,7 +1,7 @@
 # Traducción completa por HellFireb, SUPERGUILDS REPUBLICANSENSEI
 # Plugin SuperGuilds
 on load:
-	set {SG::Locale_Version} to "1001"
+	set {SG::Locale_Version} to "0201"
 	set {SG::Messages::Prefix} to "§6§lSUPERGUILDS §6➥§7"
 	set {SG::Messages::Char_Error} to "§7El texto tiene carácteres inapropiados."
 	set {SG::Messages::WorldGuard_Error} to "§7Este lugar esta bajo una protección."
